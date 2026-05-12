@@ -1,0 +1,75 @@
+.page {
+  padding: 64px 0 88px;
+}
+
+.header {
+  max-width: 780px;
+  margin-bottom: 38px;
+}
+
+.eyebrow {
+  margin-bottom: 10px;
+  color: var(--ifm-color-primary);
+  font-size: 0.86rem;
+  font-weight: 850;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.header h1 {
+  margin-bottom: 14px;
+  font-size: clamp(2.2rem, 5vw, 4rem);
+}
+
+.header p {
+  margin: 0;
+  color: var(--ifm-color-content-secondary);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.timeline {
+  display: grid;
+  gap: 0;
+  max-width: 920px;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: 28px;
+  padding: 28px 0;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.item time {
+  color: var(--ifm-color-primary);
+  font-weight: 850;
+}
+
+.item h2 {
+  margin: 0 0 8px;
+  font-size: 1.35rem;
+}
+
+.item p {
+  margin: 0 0 10px;
+  color: var(--ifm-color-content-secondary);
+  line-height: 1.75;
+}
+
+.item a {
+  font-weight: 800;
+}
+
+@media screen and (max-width: 640px) {
+  .page {
+    padding: 42px 0 64px;
+  }
+
+  .item {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}
