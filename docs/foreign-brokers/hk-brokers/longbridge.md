@@ -13,6 +13,8 @@ keywords:
 
 # 长桥证券（Longbridge）开户全攻略：港美股双账户合规通道
 
+![Longbridge 长桥证券股票交易](/img/_doc-thumb/foreign-brokers_hk-brokers_longbridge_85e6b7e989df.jpg)
+
 <div class="founder-card">
   <img src="/img/founders/li-jia-longbridge.svg" alt="Li Jia · 李佳 · Longbridge" />
   <div class="founder-bio">

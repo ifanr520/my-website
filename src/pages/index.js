@@ -98,7 +98,7 @@ function Hero() {
       <div className={clsx('container', styles.heroInner)}>
         <p className={styles.heroEyebrow}>GLOBAL RESOURCE PLAYBOOK</p>
         <Heading as="h1" id="hero-title" className={styles.heroTitle}>
-          资源全球运营与布局
+          Ken的海
         </Heading>
         <p className={styles.heroLead}>{heroLead}</p>
         <div className={styles.heroActions}>

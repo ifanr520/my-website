@@ -3,7 +3,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '漂哥出海之路',
+  title: 'Ken的海',
   tagline: '资源全球运营与布局',
   favicon: 'img/favicon.ico',
 
@@ -22,14 +22,14 @@ const config = {
       attributes: {
         name: 'keywords',
         content:
-          '漂哥出海之路,出海攻略,国外银行,国外券商,Web3,跨境出海,AI工具,AI美女相册,资源全球运营与布局',
+          'Ken的海,出海攻略,国外银行,国外券商,Web3,跨境出海,AI工具,AI美女相册,资源全球运营与布局',
       },
     },
     {
       tagName: 'meta',
       attributes: {
         name: 'author',
-        content: '漂哥',
+        content: 'Ken',
       },
     },
   ],
@@ -74,10 +74,10 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: '漂哥出海之路',
+        title: 'Ken的海',
         hideOnScroll: true,
         logo: {
-          alt: '漂哥出海之路',
+          alt: 'Ken的海',
           src: 'img/logo.svg',
         },
         items: [
@@ -183,6 +183,7 @@ const config = {
             items: [
               { label: '栏目首页', to: '/docs/category/ai-era' },
               { label: '栏目说明', to: '/docs/ai-era/intro' },
+              { label: 'OpenAI vs Claude：推理原理与价值观的深度对比', to: '/docs/ai-era/openai-claude-comparison' },
               { label: 'AI 账号注册', to: '/docs/category/ai-account-guides', className: 'navbar-dropdown-section' },
               { label: 'OpenAI / ChatGPT 注册', to: '/docs/ai-era/account-guides/openai-chatgpt' },
               { label: 'Anthropic Claude 注册', to: '/docs/ai-era/account-guides/anthropic-claude' },
@@ -198,6 +199,7 @@ const config = {
               { label: '创作 Prompt', to: '/docs/category/ai-gallery-prompts', className: 'navbar-dropdown-section' },
               { label: '相册制作工作流', to: '/docs/ai-gallery/creative-guides/workflow' },
               { label: '作品图集展示', to: '/docs/ai-gallery/creative-guides/gallery' },
+              { label: '鬼马少女写真提示词', to: '/docs/ai-gallery/creative-guides/鬼马少女写真提示词' },
             ],
           },
         ],
@@ -242,7 +244,7 @@ const config = {
             ],
           },
         ],
-        copyright: `<p class="footer-icp-line">京ICP备01088888号-1 · 京公网安备11010502088888号</p><p class="footer-copy-line">© ${new Date().getFullYear()} 漂哥出海之路</p>`,
+        copyright: `<p class="footer-icp-line">京ICP备01088888号-1 · 京公网安备11010502088888号</p><p class="footer-copy-line">© ${new Date().getFullYear()} Ken的海</p>`,
       },
     }),
 };
