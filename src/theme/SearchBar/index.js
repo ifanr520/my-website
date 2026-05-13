@@ -16,16 +16,16 @@ const searchItems = [
     keywords: '目录 攻略 总览 分类',
   },
   {
-    title: '文章动态',
-    description: '文章发布时间线和内容更新记录。',
-    url: '/updates',
-    keywords: '发布时间线 更新 动态 文章',
-  },
-  {
     title: '关于我',
     description: '漂哥出海之路作者介绍、推特联系方式和网站内容方向。',
     url: '/about',
     keywords: '关于我 作者 可信度 推特',
+  },
+  {
+    title: '金融免责声明',
+    description: '本站内容性质、投资风险提示与第三方链接说明。',
+    url: '/disclaimer',
+    keywords: '免责 声明 风险 合规 法律',
   },
   {
     title: '国外银行',

@@ -146,16 +146,32 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
-            title: '攻略目录',
+            title: '攻略栏目',
             items: [
               { label: '国外银行', to: '/docs/category/国外银行' },
               { label: '国外券商', to: '/docs/category/国外券商' },
               { label: '加密 Web3', to: '/docs/category/加密-web3' },
               { label: '跨境出海', to: '/docs/category/跨境出海' },
               { label: 'AI 时代', to: '/docs/category/ai-时代' },
+              { label: 'AI 美女相册', to: '/docs/category/ai-美女相册' },
+            ],
+          },
+          {
+            title: '站内',
+            items: [
+              { label: '出海攻略总览', to: '/docs/guide' },
+              { label: '关于我', to: '/about' },
+              { label: '金融免责声明', to: '/disclaimer' },
+            ],
+          },
+          {
+            title: '友情链接',
+            items: [
+              { label: '友链占位 · 合作方甲', href: 'https://example.com' },
+              { label: '友链占位 · 合作方乙', href: 'https://example.org' },
             ],
           },
           {
@@ -167,7 +183,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 漂哥出海之路. Built with Docusaurus.`,
+        copyright: `<p class="footer-legal-snip">本站内容仅供信息参考，不构成任何投资建议、开户邀请或收益承诺；涉及跨境、银行、证券及加密资产等事项，请务必以监管机构及服务商最新披露为准。</p><p class="footer-icp-line">京ICP备01088888号-1 · 京公网安备11010502088888号</p><p class="footer-copy-line">© ${new Date().getFullYear()} 漂哥出海之路 · Built with Docusaurus</p>`,
       },
     }),
 };

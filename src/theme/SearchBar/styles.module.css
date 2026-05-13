@@ -11,13 +11,22 @@
 .search input {
   width: 100%;
   height: 38px;
-  padding: 0 42px 0 14px;
+  padding: 0 42px 0 16px;
+  font-family: var(--site-font-nav, inherit);
+  font-size: 0.875rem;
+  font-weight: 450;
+  letter-spacing: -0.02em;
   color: var(--ifm-font-color-base);
-  background: color-mix(in srgb, var(--ifm-background-color), white 36%);
-  border: 1px solid var(--ifm-color-emphasis-300);
-  border-radius: 8px;
+  background: #f4f4f5;
+  border: 1px solid var(--navbar-vercel-border, var(--ifm-color-emphasis-200));
+  border-radius: 999px;
   outline: none;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  box-shadow: none;
+}
+
+[data-theme='dark'] .search input {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: var(--navbar-vercel-border, var(--ifm-color-emphasis-200));
 }
 
 .search input::placeholder {
@@ -25,24 +34,29 @@
 }
 
 .search input:focus {
-  border-color: var(--ifm-color-primary);
-  box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.14);
+  border-color: #d4d4d4;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.04);
+}
+
+[data-theme='dark'] .search input:focus {
+  border-color: rgba(255, 255, 255, 0.22);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.06);
 }
 
 .shortcut {
   position: absolute;
   top: 8px;
-  right: 9px;
+  right: 10px;
   min-width: 22px;
   height: 22px;
   display: grid;
   place-items: center;
   color: var(--ifm-color-content-secondary);
-  background: var(--ifm-color-emphasis-100);
-  border: 1px solid var(--ifm-color-emphasis-200);
+  background: transparent;
+  border: none;
   border-radius: 6px;
-  font-size: 0.75rem;
-  font-weight: 800;
+  font-size: 0.72rem;
+  font-weight: 600;
   pointer-events: none;
 }
 

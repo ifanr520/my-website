@@ -1,0 +1,86 @@
+.cardContainer {
+  --ifm-link-color: var(--ifm-color-emphasis-800);
+  --ifm-link-hover-color: var(--ifm-color-emphasis-700);
+  --ifm-link-hover-decoration: none;
+
+  height: 100%;
+  padding: 1.1rem 1.2rem;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 12px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+  background: var(--ifm-card-background-color);
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease,
+    transform 0.15s ease;
+}
+
+.cardContainer:hover {
+  border-color: rgba(99, 91, 255, 0.35);
+  box-shadow: 0 8px 28px rgba(15, 23, 42, 0.08);
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+
+[data-theme='dark'] .cardContainer {
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: none;
+}
+
+[data-theme='dark'] .cardContainer:hover {
+  border-color: rgba(165, 180, 252, 0.45);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+}
+
+.rowHorizontal {
+  flex-direction: row;
+  align-items: stretch;
+  min-height: 5.5rem;
+}
+
+.rowStacked {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.thumbWrap {
+  flex: 0 0 112px;
+  width: 112px;
+  max-height: 120px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--ifm-color-emphasis-100);
+  align-self: stretch;
+}
+
+.thumbImg {
+  width: 100%;
+  height: 100%;
+  min-height: 5rem;
+  object-fit: cover;
+  display: block;
+}
+
+.textCol {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.textCol > *:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 996px) {
+  .thumbWrap {
+    flex-basis: 96px;
+    width: 96px;
+  }
+}
