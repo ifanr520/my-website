@@ -6,6 +6,32 @@ description: Web3 原生瑞士 IBAN UR Card 万事达卡：开卡流程、绑定
 
 # UR Card 申请全攻略：Web3 原生瑞士 IBAN 万事达卡从零到一
 
+{/* hero-img:start */}
+![UR Card · 瑞士银行区 Web3 风格](https://images.unsplash.com/photo-1611174243377-bff1d80b1b9a?w=1400&h=620&fit=crop&q=85)
+{/* hero-img:end */}
+
+{/* fomo-block:start */}
+<div class="referral-fomo">
+  <span class="referral-urgency">🔥 Web3 原生 · 闲置资金 5% 年化</span>
+  <p class="referral-headline">UR Card：用我的邀请码注册，多领一份福利</p>
+  <p class="referral-perk">UR = MPC 非托管钱包 + 瑞士 IBAN + 万事达卡三合一，<strong>无需助记词</strong>（Google / 邮箱登录），消费时实时 USDC/USDe → 法币 <strong>接近 0 损耗</strong>，闲置资金存 USDe 享 <strong>3~5% 年化</strong>。</p>
+  <p class="referral-perk">通过本站邀请码注册 + 首次消费满 $5，立得 <strong>$5 启动金</strong>；再叠加 Pro 会员活动期 <strong>0% 充值费率</strong>，<strong>全年汇损 + 充值费 = 0</strong>，比 SafePal 还省。</p>
+  <div class="referral-copy-row">
+    <span class="referral-copy-label">邀请码</span>
+    <code class="referral-copy-code">YOUR_UR_REF</code>
+  </div>
+  <div class="referral-actions">
+    <a class="referral-cta" href="https://www.ur.io" target="_blank" rel="noopener noreferrer">立即开通 UR Card</a>
+    <a class="referral-cta-secondary" href="https://www.ur.io" target="_blank" rel="noopener noreferrer">查看官网详情</a>
+  </div>
+  <div class="referral-social">
+    <span class="referral-social-item">✅ 本站已带 <strong>800+</strong> 用户开通 UR Card</span>
+    <span class="referral-social-item">⏳ Pro 会员活动剩余 <strong>5 天</strong></span>
+  </div>
+  <p class="referral-fineprint">$5 启动金需在 30 天内完成首次消费；Mantle Network L2 链。 · 推荐码绑定后无法更改，请确认填写后再提交。</p>
+</div>
+{/* fomo-block:end */}
+
 UR 是由 SR Saphirstein AG 运营的瑞士持牌金融科技应用，基于 Mantle Network（以太坊 L2）构建，将**自托管加密钱包 + 瑞士 IBAN 银行账户 + 万事达借记卡**三合一，是目前最具 Web3 原生特色的 U 卡之一。**0 开卡费、闲置资金可生息、消费零损耗**是其最核心的三大差异化优势。
 
 ## 一、UR Card 核心优势

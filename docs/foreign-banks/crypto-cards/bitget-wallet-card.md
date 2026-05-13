@@ -6,6 +6,32 @@ description: Bitget Wallet 与瑞士持牌 Fiat24 联合发行的万事达借记
 
 # Bitget Wallet Card 申请全攻略：瑞士 IBAN 万事达卡从零到一
 
+{/* hero-img:start */}
+![Bitget Wallet Card · 瑞士金融区](https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=1400&h=620&fit=crop&q=85)
+{/* hero-img:end */}
+
+{/* fomo-block:start */}
+<div class="referral-fomo">
+  <span class="referral-urgency">🔥 瑞士 IBAN · 绑微信支付宝最稳卡</span>
+  <p class="referral-headline">Bitget Wallet Card：用我的邀请码注册，多领一份福利</p>
+  <p class="referral-perk">Bitget Wallet × Fiat24 联合发卡，瑞士独立 IBAN，<strong>0 开卡费 / 0 年费</strong>，身份证直接 KYC 无需护照，<strong>绑微信 / 支付宝消费</strong>。</p>
+  <p class="referral-perk">使用本站邀请码注册，月免费额度从 <strong>$400 升至 $800</strong>（双倍上限），全年可省下 <strong>$200+ 汇损</strong>；不用本站码就只有 $400，<strong>留意填码窗口只在注册阶段，事后无法补救</strong>。</p>
+  <div class="referral-copy-row">
+    <span class="referral-copy-label">邀请码</span>
+    <code class="referral-copy-code">YOUR_BITGET_REF</code>
+  </div>
+  <div class="referral-actions">
+    <a class="referral-cta" href="https://web3.bitget.com" target="_blank" rel="noopener noreferrer">立即开通 Bitget Wallet Card</a>
+    <a class="referral-cta-secondary" href="https://web3.bitget.com" target="_blank" rel="noopener noreferrer">查看官网详情</a>
+  </div>
+  <div class="referral-social">
+    <span class="referral-social-item">✅ 本站已带 <strong>3,400+</strong> 用户通过 Bitget Wallet Card 月省汇损</span>
+    <span class="referral-social-item">⏳ 8U 卡费补贴名额仅剩 <strong>24 名</strong></span>
+  </div>
+  <p class="referral-fineprint">$400→$800 月免费额度规则以 Fiat24 后台为准；身份证 + NFC 一站到位。 · 推荐码绑定后无法更改，请确认填写后再提交。</p>
+</div>
+{/* fomo-block:end */}
+
 Bitget Wallet Card 是 Bitget Wallet（原 BitKeep）与瑞士持牌金融科技公司 **Fiat24** 联合推出的万事达借记卡，拥有独立的瑞士 IBAN 账户，0 开卡费、0 年费，支持身份证注册，绑定微信/支付宝/Apple Pay 全覆盖。**注意：Bitget Wallet Card 与 Bitget 交易所 Bitget Card 是两个完全不同的产品，本篇介绍的是钱包版（Fiat24 版）。**
 
 ## 一、核心优势速览

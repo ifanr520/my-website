@@ -1,0 +1,10 @@
+{
+  "label": "钱包安全",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "钱包安全",
+    "description": "热钱包、冷钱包、硬件钱包的横向对比与申请实操，链上资产长期保管的第一道关卡。",
+    "slug": "/category/crypto-wallets"
+  }
+}

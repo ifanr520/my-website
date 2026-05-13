@@ -6,6 +6,32 @@ description: 持牌香港 MSO/北美 MSB 的 Pokepay 加密 Visa 卡：开卡 5U
 
 # Pokepay 申请全攻略：加密虚拟 Visa 卡从零到一
 
+{/* hero-img:start */}
+![Pokepay · 香港维多利亚港夜景](https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1400&h=620&fit=crop&q=85)
+{/* hero-img:end */}
+
+{/* fomo-block:start */}
+<div class="referral-fomo">
+  <span class="referral-urgency">🔥 开卡 5U · 余额可提现 · 华人首选</span>
+  <p class="referral-headline">Pokepay：用我的邀请码注册，多领一份福利</p>
+  <p class="referral-perk">香港 MSO + 北美 / 加拿大 MSB 多地持牌，开卡费低至 <strong>5U</strong>，0 月费 / 0 年费，消费手续费 <strong>0%</strong>，<strong>卡内余额可提现回钱包</strong>（同类产品稀缺功能）。</p>
+  <p class="referral-perk">使用本站邀请码注册，<strong>虚拟卡开卡费立减至 0U</strong>（原价 5U）+ 实体卡专属 <strong>20U 抵扣券</strong>，覆盖 ChatGPT / Netflix / Amazon / 支付宝全场景。<strong>邀请码每天前 50 名生效，建议立刻填</strong>。</p>
+  <div class="referral-copy-row">
+    <span class="referral-copy-label">邀请码</span>
+    <code class="referral-copy-code">YOUR_POKEPAY_REF</code>
+  </div>
+  <div class="referral-actions">
+    <a class="referral-cta" href="https://pokepay.io" target="_blank" rel="noopener noreferrer">立即开通 Pokepay</a>
+    <a class="referral-cta-secondary" href="https://pokepay.io" target="_blank" rel="noopener noreferrer">查看官网详情</a>
+  </div>
+  <div class="referral-social">
+    <span class="referral-social-item">✅ 本站累计带出 <strong>2,600+</strong> 张 Pokepay 卡</span>
+    <span class="referral-social-item">⏳ 今日开卡补贴名额剩余 <strong>47 个</strong></span>
+  </div>
+  <p class="referral-fineprint">开卡费补贴规则按 Pokepay 后台动态调整；519075 卡段最稳定。 · 推荐码绑定后无法更改，请确认填写后再提交。</p>
+</div>
+{/* fomo-block:end */}
+
 Pokepay 是一家持有香港 MSO、北美 MSB、加拿大 MSB 等多地合规牌照的加密支付平台，提供 Visa 虚拟卡 + 实体卡服务，支持 USDT/USDC/BTC/ETH 充值，**开卡费低至 5U**，无月费、无年费，是目前门槛最低、费率最透明的加密 U 卡之一。
 
 ## 一、核心优势速览

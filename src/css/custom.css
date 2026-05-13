@@ -508,10 +508,6 @@ h6 {
   color: #94a3b8;
 }
 
-.footer-legal-snip {
-  margin: 0 0 1rem;
-}
-
 .footer-icp-line {
   margin: 0 0 0.75rem;
 }
@@ -1429,4 +1425,125 @@ h6 {
 .theme-doc-markdown img {
   max-width: 100%;
   height: auto;
+}
+
+
+/* ============================================================================
+ * Article hero photo — sepia / film tone matching homepage
+ * ========================================================================== */
+
+.theme-doc-markdown > p:first-of-type img,
+.theme-doc-markdown > p > img.article-hero,
+.article-hero-img {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin: 0.5rem 0 1.75rem;
+  filter: saturate(0.85) sepia(0.10) brightness(0.97) contrast(1.02);
+  box-shadow: 0 6px 24px rgba(15, 23, 42, 0.08);
+}
+
+[data-theme='dark'] .theme-doc-markdown > p:first-of-type img,
+[data-theme='dark'] .theme-doc-markdown > p > img.article-hero,
+[data-theme='dark'] .article-hero-img {
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* ============================================================================
+ * Crypto-style FOMO referral — adds an "urgency strip" + social proof
+ * ========================================================================== */
+
+.referral-fomo .referral-urgency {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 0.65rem;
+  padding: 3px 12px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: linear-gradient(135deg, #dc2626, #ea580c);
+  border-radius: 999px;
+  text-transform: uppercase;
+  animation: fomoPulse 2.4s ease-in-out infinite;
+}
+
+.referral-fomo .referral-urgency::before {
+  content: '⚡';
+  font-size: 0.85em;
+}
+
+@keyframes fomoPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.4); }
+  50% { box-shadow: 0 0 0 6px rgba(220, 38, 38, 0); }
+}
+
+.referral-fomo .referral-social {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin: 0.85rem 0 0;
+  padding-top: 0.85rem;
+  border-top: 1px dashed rgba(0, 0, 0, 0.18);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+[data-theme='dark'] .referral-fomo .referral-social {
+  border-top-color: rgba(255, 255, 255, 0.18);
+}
+
+.referral-fomo .referral-social-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.referral-fomo .referral-social-item strong {
+  font-weight: 700;
+  background: transparent;
+  padding: 0;
+}
+
+[data-theme='dark'] .referral-fomo .referral-social-item strong {
+  background: transparent;
+}
+
+/* The copy button on the referral code */
+.referral-fomo .referral-copy-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 0.5rem 0 0;
+  padding: 0.55rem 0.8rem;
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  border: 1px dashed rgba(0, 0, 0, 0.18);
+}
+
+[data-theme='dark'] .referral-fomo .referral-copy-row {
+  background: rgba(0, 0, 0, 0.32);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.referral-fomo .referral-copy-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.referral-fomo .referral-copy-code {
+  flex: 1;
+  font-family: 'Geist Mono', 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  background: transparent;
+  padding: 0;
+  text-align: center;
 }

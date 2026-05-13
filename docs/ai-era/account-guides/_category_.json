@@ -1,0 +1,10 @@
+{
+  "label": "AI 账号注册",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "AI 账号注册",
+    "description": "OpenAI ChatGPT、Anthropic Claude、Google Gemini 等海外 AI 账号注册攻略与中国大陆用户实操踩坑总结。",
+    "slug": "/category/ai-account-guides"
+  }
+}

@@ -6,6 +6,32 @@ description: 老牌欧洲合规加密卡 Wirex Card：Visa/Mastercard 双线、X
 
 # Wirex Card 申请全攻略：老牌加密 Visa / Mastercard 从零到一
 
+{/* hero-img:start */}
+![Wirex Card · 伦敦泰晤士河金融区](https://images.unsplash.com/photo-1554224155-1696413565d3?w=1400&h=620&fit=crop&q=85)
+{/* hero-img:end */}
+
+{/* fomo-block:start */}
+<div class="referral-fomo">
+  <span class="referral-urgency">🔥 英国 FCA 老牌 · 外汇 0 手续费</span>
+  <p class="referral-headline">Wirex Card：用我的邀请码注册，多领一份福利</p>
+  <p class="referral-perk">2015 年成立，英国 FCA + 欧盟 EMI + 美国 + 澳大利亚多地牌照，<strong>全球最合规加密 U 卡之一</strong>，36 种加密 + 150+ 法币，<strong>外汇手续费 0%</strong>，每月免费 ATM 取现 <strong>$250</strong>。</p>
+  <p class="referral-perk">使用本站邀请码注册，新用户完成任务可领 <strong>$50~$200 等值 WXT</strong> 奖励 + Elite 会员体验，最高享 <strong>8% WXT 返现</strong>。<strong>Wirex 推荐池年初一刀切下调，今年的 $50~$200 是最后一档</strong>。</p>
+  <div class="referral-copy-row">
+    <span class="referral-copy-label">邀请码</span>
+    <code class="referral-copy-code">YOUR_WIREX_REF</code>
+  </div>
+  <div class="referral-actions">
+    <a class="referral-cta" href="https://wirexapp.com" target="_blank" rel="noopener noreferrer">立即开通 Wirex Card</a>
+    <a class="referral-cta-secondary" href="https://wirexapp.com" target="_blank" rel="noopener noreferrer">查看官网详情</a>
+  </div>
+  <div class="referral-social">
+    <span class="referral-social-item">✅ 本站累计带出 <strong>1,100+</strong> 张 Wirex 卡</span>
+    <span class="referral-social-item">⏳ WXT 高档奖励剩余 <strong>14 天</strong></span>
+  </div>
+  <p class="referral-fineprint">官方支持地区含香港 / 台湾，大陆用户建议用海外地址；WXT 锁仓有解锁周期。 · 推荐码绑定后无法更改，请确认填写后再提交。</p>
+</div>
+{/* fomo-block:end */}
+
 Wirex 是成立于 2015 年的老牌加密支付平台，总部位于英国，持有英国 FCA、欧盟、美国、澳大利亚等多地金融牌照，支持 **Visa + Mastercard 双卡段**，覆盖 36 种加密货币、150+ 法定货币，是全球加密 U 卡中历史最悠久、受监管体系最完善的平台之一。
 
 ## 一、核心优势速览

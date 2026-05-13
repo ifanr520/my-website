@@ -1,0 +1,3542 @@
+
+> my-website@0.0.0 start
+> node scripts/extract-doc-thumbnails.js && node scripts/sync-navbar.js && docusaurus start
+
+docThumbnails: 29 docs (from 41 files) -> src\data\docThumbnails.json
+Navbar synced:
+  国外银行  (9 篇)
+  国外券商  (17 篇)
+  加密 Web3  (9 篇)
+  跨境出海  (2 篇)
+  AI 时代  (1 篇)
+  AI 美女相册  (2 篇)
+[INFO] Starting the development server...
+[SUCCESS] Docusaurus website is running at: http://localhost:3000/
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\digital-banks\za-bank.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 136
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\bitget-wallet-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 189
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\biyapay-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 8,
+        │   "name": "8:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 12,
+        │     "line": 8,
+        │     "column": 2,
+        │     "offset": 100
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\bybit-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 179
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\pokepay.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 179
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\safepal-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 176
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\ur-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 155
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\wirex-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 181
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\digital-banks\ifast-global-bank.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 166
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\digital-banks\za-bank.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 136
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m18 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\bitget-wallet-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 189
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\biyapay-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 8,
+        │   "name": "8:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 12,
+        │     "line": 8,
+        │     "column": 2,
+        │     "offset": 100
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\bybit-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 179
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\pokepay.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 179
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\safepal-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 176
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\ur-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 155
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\wirex-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 181
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\digital-banks\ifast-global-bank.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 166
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\digital-banks\za-bank.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 136
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m18 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\bitget-wallet-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 189
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\biyapay-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 8,
+        │   "name": "8:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 12,
+        │     "line": 8,
+        │     "column": 2,
+        │     "offset": 100
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\bybit-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 179
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\pokepay.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 179
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\safepal-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 176
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\ur-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 155
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\wirex-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 181
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\digital-banks\ifast-global-bank.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 166
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\digital-banks\za-bank.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 136
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m18 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\bitget-wallet-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 189
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\biyapay-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 8,
+        │   "name": "8:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 12,
+        │     "line": 8,
+        │     "column": 2,
+        │     "offset": 100
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\bybit-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 179
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\pokepay.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 179
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\safepal-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 176
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\ur-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 155
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\wirex-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 181
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\digital-banks\ifast-global-bank.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 166
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\digital-banks\za-bank.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 136
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m18 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\bitget-wallet-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 189
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\biyapay-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 8,
+        │   "name": "8:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 12,
+        │     "line": 8,
+        │     "column": 2,
+        │     "offset": 100
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\bybit-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 179
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\pokepay.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 179
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\safepal-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 176
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\ur-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 155
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\wirex-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 181
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\digital-banks\ifast-global-bank.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 166
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\digital-banks\za-bank.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 136
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m18 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\bitget-wallet-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 189
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\biyapay-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 8,
+        │   "name": "8:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 12,
+        │     "line": 8,
+        │     "column": 2,
+        │     "offset": 100
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\bybit-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 179
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\pokepay.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 179
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\safepal-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 176
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\ur-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 155
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\wirex-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 181
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\digital-banks\ifast-global-bank.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 166
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\digital-banks\za-bank.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 136
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m18 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\bitget-wallet-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 189
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\biyapay-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 8,
+        │   "name": "8:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 12,
+        │     "line": 8,
+        │     "column": 2,
+        │     "offset": 100
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\bybit-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 179
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\pokepay.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 179
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\safepal-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 176
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\ur-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 155
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\crypto-cards\wirex-card.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 181
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\digital-banks\ifast-global-bank.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 166
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+
+--------------------------
+
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\foreign-banks\digital-banks\za-bank.md"
+        │ Cause: Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)
+        │ Details:
+        │ {
+        │   "column": 2,
+        │   "file": "",
+        │   "message": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "line": 9,
+        │   "name": "9:2",
+        │   "place": {
+        │     "_bufferIndex": 1,
+        │     "_index": 14,
+        │     "line": 9,
+        │     "column": 2,
+        │     "offset": 136
+        │   },
+        │   "reason": "Unexpected character `!` (U+0021) before name, expected a character that can start a name, such as a letter, `$`, or `_` (note: to create a comment in MDX, use `{/* text */}`)",
+        │   "ruleId": "unexpected-character",
+        │   "source": "micromark-extension-mdx-jsx",
+        │   "url": "https://github.com/micromark/micromark-extension-mdx-jsx#unexpected-character-at-expected-expect"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m18 errors[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\esim-data\redteago.md"
+        │ Cause: Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)
+        │ Details:
+        │ {
+        │   "column": 64,
+        │   "file": "",
+        │   "message": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "line": 30,
+        │   "name": "30:64-30:71",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 61,
+        │       "_index": 0,
+        │       "line": 30,
+        │       "column": 64,
+        │       "offset": 976
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 30,
+        │       "column": 71,
+        │       "offset": 983
+        │     }
+        │   },
+        │   "reason": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\esim-data\redteago.md"
+        │ Cause: Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)
+        │ Details:
+        │ {
+        │   "column": 64,
+        │   "file": "",
+        │   "message": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "line": 30,
+        │   "name": "30:64-30:71",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 61,
+        │       "_index": 0,
+        │       "line": 30,
+        │       "column": 64,
+        │       "offset": 976
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 30,
+        │       "column": 71,
+        │       "offset": 983
+        │     }
+        │   },
+        │   "reason": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\esim-data\redteago.md"
+        │ Cause: Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)
+        │ Details:
+        │ {
+        │   "column": 64,
+        │   "file": "",
+        │   "message": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "line": 30,
+        │   "name": "30:64-30:71",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 61,
+        │       "_index": 0,
+        │       "line": 30,
+        │       "column": 64,
+        │       "offset": 976
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 30,
+        │       "column": 71,
+        │       "offset": 983
+        │     }
+        │   },
+        │   "reason": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\esim-data\redteago.md"
+        │ Cause: Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)
+        │ Details:
+        │ {
+        │   "column": 64,
+        │   "file": "",
+        │   "message": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "line": 30,
+        │   "name": "30:64-30:71",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 61,
+        │       "_index": 0,
+        │       "line": 30,
+        │       "column": 64,
+        │       "offset": 976
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 30,
+        │       "column": 71,
+        │       "offset": 983
+        │     }
+        │   },
+        │   "reason": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\esim-data\redteago.md"
+        │ Cause: Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)
+        │ Details:
+        │ {
+        │   "column": 64,
+        │   "file": "",
+        │   "message": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "line": 30,
+        │   "name": "30:64-30:71",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 61,
+        │       "_index": 0,
+        │       "line": 30,
+        │       "column": 64,
+        │       "offset": 976
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 30,
+        │       "column": 71,
+        │       "offset": 983
+        │     }
+        │   },
+        │   "reason": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\esim-data\redteago.md"
+        │ Cause: Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)
+        │ Details:
+        │ {
+        │   "column": 64,
+        │   "file": "",
+        │   "message": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "line": 30,
+        │   "name": "30:64-30:71",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 61,
+        │       "_index": 0,
+        │       "line": 30,
+        │       "column": 64,
+        │       "offset": 976
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 30,
+        │       "column": 71,
+        │       "offset": 983
+        │     }
+        │   },
+        │   "reason": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\esim-data\redteago.md"
+        │ Cause: Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)
+        │ Details:
+        │ {
+        │   "column": 64,
+        │   "file": "",
+        │   "message": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "line": 30,
+        │   "name": "30:64-30:71",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 61,
+        │       "_index": 0,
+        │       "line": 30,
+        │       "column": 64,
+        │       "offset": 976
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 30,
+        │       "column": 71,
+        │       "offset": 983
+        │     }
+        │   },
+        │   "reason": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\esim-data\redteago.md"
+        │ Cause: Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)
+        │ Details:
+        │ {
+        │   "column": 64,
+        │   "file": "",
+        │   "message": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "line": 30,
+        │   "name": "30:64-30:71",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 61,
+        │       "_index": 0,
+        │       "line": 30,
+        │       "column": 64,
+        │       "offset": 976
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 30,
+        │       "column": 71,
+        │       "offset": 983
+        │     }
+        │   },
+        │   "reason": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\esim-data\redteago.md"
+        │ Cause: Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)
+        │ Details:
+        │ {
+        │   "column": 64,
+        │   "file": "",
+        │   "message": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "line": 30,
+        │   "name": "30:64-30:71",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 61,
+        │       "_index": 0,
+        │       "line": 30,
+        │       "column": 64,
+        │       "offset": 976
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 30,
+        │       "column": 71,
+        │       "offset": 983
+        │     }
+        │   },
+        │   "reason": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\esim-data\redteago.md"
+        │ Cause: Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)
+        │ Details:
+        │ {
+        │   "column": 64,
+        │   "file": "",
+        │   "message": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "line": 30,
+        │   "name": "30:64-30:71",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 61,
+        │       "_index": 0,
+        │       "line": 30,
+        │       "column": 64,
+        │       "offset": 976
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 30,
+        │       "column": 71,
+        │       "offset": 983
+        │     }
+        │   },
+        │   "reason": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\esim-data\redteago.md"
+        │ Cause: Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)
+        │ Details:
+        │ {
+        │   "column": 64,
+        │   "file": "",
+        │   "message": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "line": 30,
+        │   "name": "30:64-30:71",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 61,
+        │       "_index": 0,
+        │       "line": 30,
+        │       "column": 64,
+        │       "offset": 976
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 30,
+        │       "column": 71,
+        │       "offset": 983
+        │     }
+        │   },
+        │   "reason": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\esim-data\redteago.md"
+        │ Cause: Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)
+        │ Details:
+        │ {
+        │   "column": 64,
+        │   "file": "",
+        │   "message": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "line": 30,
+        │   "name": "30:64-30:71",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 61,
+        │       "_index": 0,
+        │       "line": 30,
+        │       "column": 64,
+        │       "offset": 976
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 30,
+        │       "column": 71,
+        │       "offset": 983
+        │     }
+        │   },
+        │   "reason": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\esim-data\redteago.md"
+        │ Cause: Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)
+        │ Details:
+        │ {
+        │   "column": 64,
+        │   "file": "",
+        │   "message": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "line": 30,
+        │   "name": "30:64-30:71",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 61,
+        │       "_index": 0,
+        │       "line": 30,
+        │       "column": 64,
+        │       "offset": 976
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 30,
+        │       "column": 71,
+        │       "offset": 983
+        │     }
+        │   },
+        │   "reason": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\esim-data\redteago.md"
+        │ Cause: Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)
+        │ Details:
+        │ {
+        │   "column": 64,
+        │   "file": "",
+        │   "message": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "line": 30,
+        │   "name": "30:64-30:71",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 61,
+        │       "_index": 0,
+        │       "line": 30,
+        │       "column": 64,
+        │       "offset": 976
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 30,
+        │       "column": 71,
+        │       "offset": 983
+        │     }
+        │   },
+        │   "reason": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\esim-data\redteago.md"
+        │ Cause: Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)
+        │ Details:
+        │ {
+        │   "column": 64,
+        │   "file": "",
+        │   "message": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "line": 30,
+        │   "name": "30:64-30:71",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 61,
+        │       "_index": 0,
+        │       "line": 30,
+        │       "column": 64,
+        │       "offset": 976
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 30,
+        │       "column": 71,
+        │       "offset": 983
+        │     }
+        │   },
+        │   "reason": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\esim-data\redteago.md"
+        │ Cause: Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)
+        │ Details:
+        │ {
+        │   "column": 64,
+        │   "file": "",
+        │   "message": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "line": 30,
+        │   "name": "30:64-30:71",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 61,
+        │       "_index": 0,
+        │       "line": 30,
+        │       "column": 64,
+        │       "offset": 976
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 30,
+        │       "column": 71,
+        │       "offset": 983
+        │     }
+        │   },
+        │   "reason": "Expected the closing tag `</span>` either after the end of `strikethrough` (32:71) or another opening tag after the start of `strikethrough` (30:51)",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\ai-era\account-guides\anthropic-claude.md"
+        │ Cause: Unexpected closing slash `/` in tag, expected an open tag first
+        │ Details:
+        │ {
+        │   "column": 15,
+        │   "file": "",
+        │   "message": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "line": 154,
+        │   "name": "154:15-154:16",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 12,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 15,
+        │       "offset": 3895
+        │     },
+        │     "end": {
+        │       "_bufferIndex": 13,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 16,
+        │       "offset": 3896
+        │     }
+        │   },
+        │   "reason": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "ruleId": "unexpected-closing-slash",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\ai-era\account-guides\anthropic-claude.md"
+        │ Cause: Unexpected closing slash `/` in tag, expected an open tag first
+        │ Details:
+        │ {
+        │   "column": 15,
+        │   "file": "",
+        │   "message": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "line": 154,
+        │   "name": "154:15-154:16",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 12,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 15,
+        │       "offset": 3895
+        │     },
+        │     "end": {
+        │       "_bufferIndex": 13,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 16,
+        │       "offset": 3896
+        │     }
+        │   },
+        │   "reason": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "ruleId": "unexpected-closing-slash",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\ai-era\account-guides\anthropic-claude.md"
+        │ Cause: Unexpected closing slash `/` in tag, expected an open tag first
+        │ Details:
+        │ {
+        │   "column": 15,
+        │   "file": "",
+        │   "message": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "line": 154,
+        │   "name": "154:15-154:16",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 12,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 15,
+        │       "offset": 3895
+        │     },
+        │     "end": {
+        │       "_bufferIndex": 13,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 16,
+        │       "offset": 3896
+        │     }
+        │   },
+        │   "reason": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "ruleId": "unexpected-closing-slash",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\ai-era\account-guides\anthropic-claude.md"
+        │ Cause: Unexpected closing slash `/` in tag, expected an open tag first
+        │ Details:
+        │ {
+        │   "column": 15,
+        │   "file": "",
+        │   "message": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "line": 154,
+        │   "name": "154:15-154:16",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 12,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 15,
+        │       "offset": 3895
+        │     },
+        │     "end": {
+        │       "_bufferIndex": 13,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 16,
+        │       "offset": 3896
+        │     }
+        │   },
+        │   "reason": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "ruleId": "unexpected-closing-slash",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\ai-era\account-guides\anthropic-claude.md"
+        │ Cause: Unexpected closing slash `/` in tag, expected an open tag first
+        │ Details:
+        │ {
+        │   "column": 15,
+        │   "file": "",
+        │   "message": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "line": 154,
+        │   "name": "154:15-154:16",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 12,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 15,
+        │       "offset": 3895
+        │     },
+        │     "end": {
+        │       "_bufferIndex": 13,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 16,
+        │       "offset": 3896
+        │     }
+        │   },
+        │   "reason": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "ruleId": "unexpected-closing-slash",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\ai-era\account-guides\anthropic-claude.md"
+        │ Cause: Unexpected closing slash `/` in tag, expected an open tag first
+        │ Details:
+        │ {
+        │   "column": 15,
+        │   "file": "",
+        │   "message": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "line": 154,
+        │   "name": "154:15-154:16",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 12,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 15,
+        │       "offset": 3895
+        │     },
+        │     "end": {
+        │       "_bufferIndex": 13,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 16,
+        │       "offset": 3896
+        │     }
+        │   },
+        │   "reason": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "ruleId": "unexpected-closing-slash",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\ai-era\account-guides\anthropic-claude.md"
+        │ Cause: Unexpected closing slash `/` in tag, expected an open tag first
+        │ Details:
+        │ {
+        │   "column": 15,
+        │   "file": "",
+        │   "message": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "line": 154,
+        │   "name": "154:15-154:16",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 12,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 15,
+        │       "offset": 3895
+        │     },
+        │     "end": {
+        │       "_bufferIndex": 13,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 16,
+        │       "offset": 3896
+        │     }
+        │   },
+        │   "reason": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "ruleId": "unexpected-closing-slash",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\ai-era\account-guides\anthropic-claude.md"
+        │ Cause: Unexpected closing slash `/` in tag, expected an open tag first
+        │ Details:
+        │ {
+        │   "column": 15,
+        │   "file": "",
+        │   "message": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "line": 154,
+        │   "name": "154:15-154:16",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 12,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 15,
+        │       "offset": 3895
+        │     },
+        │     "end": {
+        │       "_bufferIndex": 13,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 16,
+        │       "offset": 3896
+        │     }
+        │   },
+        │   "reason": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "ruleId": "unexpected-closing-slash",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\ai-era\account-guides\anthropic-claude.md"
+        │ Cause: Unexpected closing slash `/` in tag, expected an open tag first
+        │ Details:
+        │ {
+        │   "column": 15,
+        │   "file": "",
+        │   "message": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "line": 154,
+        │   "name": "154:15-154:16",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 12,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 15,
+        │       "offset": 3895
+        │     },
+        │     "end": {
+        │       "_bufferIndex": 13,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 16,
+        │       "offset": 3896
+        │     }
+        │   },
+        │   "reason": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "ruleId": "unexpected-closing-slash",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\ai-era\account-guides\anthropic-claude.md"
+        │ Cause: Unexpected closing slash `/` in tag, expected an open tag first
+        │ Details:
+        │ {
+        │   "column": 15,
+        │   "file": "",
+        │   "message": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "line": 154,
+        │   "name": "154:15-154:16",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 12,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 15,
+        │       "offset": 3895
+        │     },
+        │     "end": {
+        │       "_bufferIndex": 13,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 16,
+        │       "offset": 3896
+        │     }
+        │   },
+        │   "reason": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "ruleId": "unexpected-closing-slash",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\ai-era\account-guides\anthropic-claude.md"
+        │ Cause: Unexpected closing slash `/` in tag, expected an open tag first
+        │ Details:
+        │ {
+        │   "column": 15,
+        │   "file": "",
+        │   "message": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "line": 154,
+        │   "name": "154:15-154:16",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 12,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 15,
+        │       "offset": 3895
+        │     },
+        │     "end": {
+        │       "_bufferIndex": 13,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 16,
+        │       "offset": 3896
+        │     }
+        │   },
+        │   "reason": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "ruleId": "unexpected-closing-slash",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\ai-era\account-guides\anthropic-claude.md"
+        │ Cause: Unexpected closing slash `/` in tag, expected an open tag first
+        │ Details:
+        │ {
+        │   "column": 15,
+        │   "file": "",
+        │   "message": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "line": 154,
+        │   "name": "154:15-154:16",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 12,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 15,
+        │       "offset": 3895
+        │     },
+        │     "end": {
+        │       "_bufferIndex": 13,
+        │       "_index": 0,
+        │       "line": 154,
+        │       "column": 16,
+        │       "offset": 3896
+        │     }
+        │   },
+        │   "reason": "Unexpected closing slash `/` in tag, expected an open tag first",
+        │   "ruleId": "unexpected-closing-slash",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\overseas-accounts\gmail-us.md"
+        │ Cause: Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`
+        │ Details:
+        │ {
+        │   "column": 3,
+        │   "file": "",
+        │   "message": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "line": 65,
+        │   "name": "65:3-65:106",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 0,
+        │       "_index": 0,
+        │       "line": 65,
+        │       "column": 3,
+        │       "offset": 1844
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 65,
+        │       "column": 106,
+        │       "offset": 1947
+        │     }
+        │   },
+        │   "reason": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\overseas-accounts\gmail-us.md"
+        │ Cause: Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`
+        │ Details:
+        │ {
+        │   "column": 3,
+        │   "file": "",
+        │   "message": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "line": 65,
+        │   "name": "65:3-65:106",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 0,
+        │       "_index": 0,
+        │       "line": 65,
+        │       "column": 3,
+        │       "offset": 1844
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 65,
+        │       "column": 106,
+        │       "offset": 1947
+        │     }
+        │   },
+        │   "reason": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\overseas-accounts\gmail-us.md"
+        │ Cause: Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`
+        │ Details:
+        │ {
+        │   "column": 3,
+        │   "file": "",
+        │   "message": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "line": 65,
+        │   "name": "65:3-65:106",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 0,
+        │       "_index": 0,
+        │       "line": 65,
+        │       "column": 3,
+        │       "offset": 1844
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 65,
+        │       "column": 106,
+        │       "offset": 1947
+        │     }
+        │   },
+        │   "reason": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\overseas-accounts\gmail-us.md"
+        │ Cause: Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`
+        │ Details:
+        │ {
+        │   "column": 3,
+        │   "file": "",
+        │   "message": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "line": 65,
+        │   "name": "65:3-65:106",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 0,
+        │       "_index": 0,
+        │       "line": 65,
+        │       "column": 3,
+        │       "offset": 1844
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 65,
+        │       "column": 106,
+        │       "offset": 1947
+        │     }
+        │   },
+        │   "reason": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\overseas-accounts\gmail-us.md"
+        │ Cause: Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`
+        │ Details:
+        │ {
+        │   "column": 3,
+        │   "file": "",
+        │   "message": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "line": 65,
+        │   "name": "65:3-65:106",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 0,
+        │       "_index": 0,
+        │       "line": 65,
+        │       "column": 3,
+        │       "offset": 1844
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 65,
+        │       "column": 106,
+        │       "offset": 1947
+        │     }
+        │   },
+        │   "reason": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\overseas-accounts\gmail-us.md"
+        │ Cause: Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`
+        │ Details:
+        │ {
+        │   "column": 3,
+        │   "file": "",
+        │   "message": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "line": 65,
+        │   "name": "65:3-65:106",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 0,
+        │       "_index": 0,
+        │       "line": 65,
+        │       "column": 3,
+        │       "offset": 1844
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 65,
+        │       "column": 106,
+        │       "offset": 1947
+        │     }
+        │   },
+        │   "reason": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\overseas-accounts\gmail-us.md"
+        │ Cause: Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`
+        │ Details:
+        │ {
+        │   "column": 3,
+        │   "file": "",
+        │   "message": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "line": 65,
+        │   "name": "65:3-65:106",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 0,
+        │       "_index": 0,
+        │       "line": 65,
+        │       "column": 3,
+        │       "offset": 1844
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 65,
+        │       "column": 106,
+        │       "offset": 1947
+        │     }
+        │   },
+        │   "reason": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\overseas-accounts\gmail-us.md"
+        │ Cause: Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`
+        │ Details:
+        │ {
+        │   "column": 3,
+        │   "file": "",
+        │   "message": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "line": 65,
+        │   "name": "65:3-65:106",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 0,
+        │       "_index": 0,
+        │       "line": 65,
+        │       "column": 3,
+        │       "offset": 1844
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 65,
+        │       "column": 106,
+        │       "offset": 1947
+        │     }
+        │   },
+        │   "reason": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\overseas-accounts\gmail-us.md"
+        │ Cause: Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`
+        │ Details:
+        │ {
+        │   "column": 3,
+        │   "file": "",
+        │   "message": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "line": 65,
+        │   "name": "65:3-65:106",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 0,
+        │       "_index": 0,
+        │       "line": 65,
+        │       "column": 3,
+        │       "offset": 1844
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 65,
+        │       "column": 106,
+        │       "offset": 1947
+        │     }
+        │   },
+        │   "reason": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\overseas-accounts\gmail-us.md"
+        │ Cause: Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`
+        │ Details:
+        │ {
+        │   "column": 3,
+        │   "file": "",
+        │   "message": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "line": 65,
+        │   "name": "65:3-65:106",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 0,
+        │       "_index": 0,
+        │       "line": 65,
+        │       "column": 3,
+        │       "offset": 1844
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 65,
+        │       "column": 106,
+        │       "offset": 1947
+        │     }
+        │   },
+        │   "reason": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\overseas-accounts\gmail-us.md"
+        │ Cause: Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`
+        │ Details:
+        │ {
+        │   "column": 3,
+        │   "file": "",
+        │   "message": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "line": 65,
+        │   "name": "65:3-65:106",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 0,
+        │       "_index": 0,
+        │       "line": 65,
+        │       "column": 3,
+        │       "offset": 1844
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 65,
+        │       "column": 106,
+        │       "offset": 1947
+        │     }
+        │   },
+        │   "reason": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\overseas-accounts\gmail-us.md"
+        │ Cause: Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`
+        │ Details:
+        │ {
+        │   "column": 3,
+        │   "file": "",
+        │   "message": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "line": 65,
+        │   "name": "65:3-65:106",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 0,
+        │       "_index": 0,
+        │       "line": 65,
+        │       "column": 3,
+        │       "offset": 1844
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 65,
+        │       "column": 106,
+        │       "offset": 1947
+        │     }
+        │   },
+        │   "reason": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\overseas-accounts\gmail-us.md"
+        │ Cause: Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`
+        │ Details:
+        │ {
+        │   "column": 3,
+        │   "file": "",
+        │   "message": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "line": 65,
+        │   "name": "65:3-65:106",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 0,
+        │       "_index": 0,
+        │       "line": 65,
+        │       "column": 3,
+        │       "offset": 1844
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 65,
+        │       "column": 106,
+        │       "offset": 1947
+        │     }
+        │   },
+        │   "reason": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\overseas-accounts\gmail-us.md"
+        │ Cause: Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`
+        │ Details:
+        │ {
+        │   "column": 3,
+        │   "file": "",
+        │   "message": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "line": 65,
+        │   "name": "65:3-65:106",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 0,
+        │       "_index": 0,
+        │       "line": 65,
+        │       "column": 3,
+        │       "offset": 1844
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 65,
+        │       "column": 106,
+        │       "offset": 1947
+        │     }
+        │   },
+        │   "reason": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\overseas-accounts\gmail-us.md"
+        │ Cause: Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`
+        │ Details:
+        │ {
+        │   "column": 3,
+        │   "file": "",
+        │   "message": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "line": 65,
+        │   "name": "65:3-65:106",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 0,
+        │       "_index": 0,
+        │       "line": 65,
+        │       "column": 3,
+        │       "offset": 1844
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 65,
+        │       "column": 106,
+        │       "offset": 1947
+        │     }
+        │   },
+        │   "reason": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\overseas-accounts\gmail-us.md"
+        │ Cause: Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`
+        │ Details:
+        │ {
+        │   "column": 3,
+        │   "file": "",
+        │   "message": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "line": 65,
+        │   "name": "65:3-65:106",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 0,
+        │       "_index": 0,
+        │       "line": 65,
+        │       "column": 3,
+        │       "offset": 1844
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 65,
+        │       "column": 106,
+        │       "offset": 1947
+        │     }
+        │   },
+        │   "reason": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\overseas-accounts\gmail-us.md"
+        │ Cause: Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`
+        │ Details:
+        │ {
+        │   "column": 3,
+        │   "file": "",
+        │   "message": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "line": 65,
+        │   "name": "65:3-65:106",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 0,
+        │       "_index": 0,
+        │       "line": 65,
+        │       "column": 3,
+        │       "offset": 1844
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 65,
+        │       "column": 106,
+        │       "offset": 1947
+        │     }
+        │   },
+        │   "reason": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\overseas-accounts\gmail-us.md"
+        │ Cause: Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`
+        │ Details:
+        │ {
+        │   "column": 3,
+        │   "file": "",
+        │   "message": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "line": 65,
+        │   "name": "65:3-65:106",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 0,
+        │       "_index": 0,
+        │       "line": 65,
+        │       "column": 3,
+        │       "offset": 1844
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 65,
+        │       "column": 106,
+        │       "offset": 1947
+        │     }
+        │   },
+        │   "reason": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\overseas-accounts\gmail-us.md"
+        │ Cause: Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`
+        │ Details:
+        │ {
+        │   "column": 3,
+        │   "file": "",
+        │   "message": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "line": 65,
+        │   "name": "65:3-65:106",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 0,
+        │       "_index": 0,
+        │       "line": 65,
+        │       "column": 3,
+        │       "offset": 1844
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 65,
+        │       "column": 106,
+        │       "offset": 1947
+        │     }
+        │   },
+        │   "reason": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+╰─▶   × Error: MDX compilation failed for file "D:\Work\my-website\docs\cross-border\overseas-accounts\gmail-us.md"
+        │ Cause: Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`
+        │ Details:
+        │ {
+        │   "column": 3,
+        │   "file": "",
+        │   "message": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "line": 65,
+        │   "name": "65:3-65:106",
+        │   "place": {
+        │     "start": {
+        │       "_bufferIndex": 0,
+        │       "_index": 0,
+        │       "line": 65,
+        │       "column": 3,
+        │       "offset": 1844
+        │     },
+        │     "end": {
+        │       "_bufferIndex": -1,
+        │       "_index": 1,
+        │       "line": 65,
+        │       "column": 106,
+        │       "offset": 1947
+        │     }
+        │   },
+        │   "reason": "Expected a closing tag for `<strong>` (65:64-65:72) before the end of `paragraph`",
+        │   "ruleId": "end-tag-mismatch",
+        │   "source": "mdast-util-mdx-jsx"
+        │ }
+        │
+        │     at compileToJSX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\utils.js:93:15)
+        │     at async loadMDX (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:22:20)
+        │     at async Object.mdxLoader (D:\Work\my-website\node_modules\@docusaurus\mdx-loader\lib\loader.js:157:24)
+[1mclient[39m[22m (Rspack 1.7.11) compiled with [1m[31m2 errors[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m
+[1mclient[39m[22m (Rspack 1.7.11) compiled [1m[32msuccessfully[39m[22m

@@ -5,6 +5,34 @@ sidebar_position: 7
 
 # BiyaPay 速捷卡申请全攻略：USDT 直消费虚拟 Visa 卡
 
+{/* hero-img:start */}
+![BiyaPay · 跨境支付与美股交易](https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1400&h=620&fit=crop&q=85)
+{/* hero-img:end */}
+
+{/* fomo-block:start */}
+<div class="referral-fomo">
+  <span class="referral-urgency">🔥 USDT 直入券商 · 跨境订阅神卡</span>
+  <p class="referral-headline">BiyaPay 速捷卡：用我的邀请码注册，多领一份福利</p>
+  <p class="referral-perk">美国 FinCEN MSB 持牌（注册号 31000218637349），同一账户内 <strong>USDT 既可炒美股 / 港股，也可充值 Visa 速捷卡直接消费</strong>，覆盖 190+ 国家、ChatGPT / Netflix / eBay / PayPal / 海外广告全场景。</p>
+  <p class="referral-perk">通过本站邀请码注册，<strong>首次充值满 $30 立返 $10 USDT</strong> + 美股交易佣金长期 <strong>20% 返佣</strong>。BiyaPay 是大陆 USDT 持有者<strong>唯一不需要海外银行</strong>的合规出路，监管节奏越来越紧，<strong>今年开就是抢窗口</strong>。</p>
+  <div class="referral-copy-row">
+    <span class="referral-copy-label">邀请码</span>
+    <code class="referral-copy-code">YOUR_BIYAPAY_REF</code>
+  </div>
+  <div class="referral-actions">
+    <a class="referral-cta" href="https://www.biyapay.com" target="_blank" rel="noopener noreferrer">立即开通 BiyaPay 速捷卡</a>
+    <a class="referral-cta-secondary" href="https://www.biyapay.com" target="_blank" rel="noopener noreferrer">查看官网详情</a>
+  </div>
+  <div class="referral-social">
+    <span class="referral-social-item">✅ 本站已带 <strong>2,100+</strong> 用户通过 BiyaPay 直入嘉信 / IBKR</span>
+    <span class="referral-social-item">⏳ USDT 返现活动剩余 <strong>6 天</strong></span>
+  </div>
+  <p class="referral-fineprint">$10 返现规则以 BiyaPay 后台为准；30 日失败率 >15% 触发冻卡。 · 推荐码绑定后无法更改，请确认填写后再提交。</p>
+</div>
+{/* fomo-block:end */}
+
+
+
 BiyaPay 是由 BIYA GLOBAL LLC 运营的合规多资产交易平台，在美国 FinCEN 注册为货币服务提供商（MSB），注册号 31000218637349。平台集国际汇款 \+ 美股港股交易 \+ 虚拟 Visa 卡于一体，其「速捷卡」是面向全球用户的 Visa 虚拟预付卡，以 USDT 充值驱动，覆盖 190\+ 国家，特别适合跨境订阅、电商广告投放等场景。
 
 ## 一、核心优势速览

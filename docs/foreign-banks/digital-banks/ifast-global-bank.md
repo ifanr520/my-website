@@ -6,7 +6,31 @@ description: 英国 FCA & PRA 双重监管的多币种数字银行 iFast Global 
 
 # iFast Global Bank 开户实操指南
 
-![iFast Global Bank](https://images.unsplash.com/photo-1576675502403-d0e199b8a746?w=800&h=450&fit=crop)
+{/* hero-img:start */}
+![iFast · 伦敦金融城晨光](https://images.unsplash.com/photo-1519677584237-752f8853252e?w=1400&h=620&fit=crop&q=85)
+{/* hero-img:end */}
+
+{/* fomo-block:start */}
+<div class="referral-fomo">
+  <span class="referral-urgency">🔥 英国 FCA 持牌 · 出境首选数字银行</span>
+  <p class="referral-headline">iFast Global Bank：用我的邀请码注册，多领一份福利</p>
+  <p class="referral-perk">英国 FCA & PRA 双重监管，FSCS 存款保险 <strong>£120,000</strong>，活期最高 <strong>2.80% AER</strong> / 定期最高 <strong>4.30% AER</strong>，9 种货币 + Visa 多币种借记卡。</p>
+  <p class="referral-perk">通过本站推荐链接注册，可获 <strong>£20 现金奖励</strong>（首次入金 ≥ £100 解锁）+ Visa 借记卡优先邀请名额，<strong>英国 / 新加坡持牌银行做出境第一站</strong>，错过这一波就要等下一轮活动。</p>
+  <div class="referral-copy-row">
+    <span class="referral-copy-label">邀请码</span>
+    <code class="referral-copy-code">YOUR_IFAST_REF</code>
+  </div>
+  <div class="referral-actions">
+    <a class="referral-cta" href="https://www.ifastgb.com" target="_blank" rel="noopener noreferrer">立即开通 iFast Global Bank</a>
+    <a class="referral-cta-secondary" href="https://www.ifastgb.com" target="_blank" rel="noopener noreferrer">查看官网详情</a>
+  </div>
+  <div class="referral-social">
+    <span class="referral-social-item">✅ 已有 <strong>1,800+</strong> 大陆用户通过本站完成 iFast 出境</span>
+    <span class="referral-social-item">⏳ 当前活动剩余 <strong>9 天</strong></span>
+  </div>
+  <p class="referral-fineprint">奖励金额以 iFast 官方活动页为准；护照 KYC 通过率最高。 · 推荐码绑定后无法更改，请确认填写后再提交。</p>
+</div>
+{/* fomo-block:end */}
 
 ## 一、开户核心优势
 
