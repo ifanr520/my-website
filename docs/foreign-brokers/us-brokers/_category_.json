@@ -1,0 +1,10 @@
+{
+  "label": "美股券商",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "美股券商",
+    "description": "盈透 IBKR、嘉信、必贝、富途 moomoo 等美股券商的开户、入金、税表与长期持仓记录。",
+    "slug": "/category/us-brokers"
+  }
+}

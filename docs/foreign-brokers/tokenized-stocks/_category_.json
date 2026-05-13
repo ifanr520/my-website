@@ -1,0 +1,10 @@
+{
+  "label": "链上美股交易",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "链上美股交易",
+    "description": "OKX、Binance、BiyaPay、Kraken、Bybit、Coinbase 等平台提供的代币化美股 / 链上美股直接交易实操。",
+    "slug": "/category/tokenized-stocks"
+  }
+}

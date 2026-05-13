@@ -63,21 +63,7 @@ const config = {
     ],
   ],
 
-  plugins: [
-    [
-      require.resolve('@easyops-cn/docusaurus-search-local'),
-      /** @type {import('@easyops-cn/docusaurus-search-local').Options} */
-      ({
-        hashed: true,
-        language: ['zh', 'en'],
-        highlightSearchTermsOnTargetPage: true,
-        explicitSearchResultPath: true,
-        indexDocs: true,
-        indexBlog: false,
-        indexPages: true,
-      }),
-    ],
-  ],
+  plugins: [],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -89,7 +75,7 @@ const config = {
       },
       navbar: {
         title: '漂哥出海之路',
-        hideOnScroll: false,
+        hideOnScroll: true,
         logo: {
           alt: '漂哥出海之路',
           src: 'img/logo.svg',
@@ -118,7 +104,26 @@ const config = {
             position: 'left',
             items: [
               { label: '栏目首页', to: '/docs/category/foreign-brokers' },
-              { label: '栏目说明', to: '/docs/foreign-brokers/intro' },
+              { label: '港股券商', to: '/docs/category/hk-brokers', className: 'navbar-dropdown-section' },
+              { label: '长桥证券 Longbridge', to: '/docs/foreign-brokers/hk-brokers/longbridge' },
+              { label: '盈立证券 uSMART', to: '/docs/foreign-brokers/hk-brokers/uismart' },
+              { label: '华盛通 Valuable', to: '/docs/foreign-brokers/hk-brokers/valuable' },
+              { label: '富途证券 Futu', to: '/docs/foreign-brokers/hk-brokers/futu' },
+              { label: '老虎证券 Tiger', to: '/docs/foreign-brokers/hk-brokers/tiger' },
+              { label: '复星证券 Fosun', to: '/docs/foreign-brokers/hk-brokers/fosun' },
+              { label: '熊猫证券 Panda', to: '/docs/foreign-brokers/hk-brokers/panda' },
+              { label: '美股券商', to: '/docs/category/us-brokers', className: 'navbar-dropdown-section' },
+              { label: '富途 moomoo', to: '/docs/foreign-brokers/us-brokers/moomoo' },
+              { label: '盈透证券 IBKR', to: '/docs/foreign-brokers/us-brokers/ibkr' },
+              { label: '嘉信证券 Schwab', to: '/docs/foreign-brokers/us-brokers/schwab' },
+              { label: '必贝证券 BBAE', to: '/docs/foreign-brokers/us-brokers/bbae' },
+              { label: '链上美股交易', to: '/docs/category/tokenized-stocks', className: 'navbar-dropdown-section' },
+              { label: 'OKX 链上美股', to: '/docs/foreign-brokers/tokenized-stocks/okx-stocks' },
+              { label: 'Binance 链上美股', to: '/docs/foreign-brokers/tokenized-stocks/binance-stocks' },
+              { label: 'BiyaPay 港美股', to: '/docs/foreign-brokers/tokenized-stocks/biyapay' },
+              { label: 'Kraken 链上美股', to: '/docs/foreign-brokers/tokenized-stocks/kraken-stocks' },
+              { label: 'Bybit 链上美股', to: '/docs/foreign-brokers/tokenized-stocks/bybit-stocks' },
+              { label: 'Coinbase 链上美股', to: '/docs/foreign-brokers/tokenized-stocks/coinbase-stocks' },
             ],
           },
           {

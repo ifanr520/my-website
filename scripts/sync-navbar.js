@@ -19,7 +19,6 @@ const path = require('path');
 const siteDir = path.join(__dirname, '..');
 const docsDir = path.join(siteDir, 'docs');
 const configPath = path.join(siteDir, 'docusaurus.config.js');
-const searchBarPath = path.join(siteDir, 'src', 'theme', 'SearchBar', 'index.js');
 
 const TOP_ORDER = [
   'foreign-banks',
@@ -265,105 +264,9 @@ function updateConfig(navItems) {
   fs.writeFileSync(configPath, config, 'utf8');
 }
 
-function buildSearchItems(navItems) {
-  const items = [
-    {
-      title: '漂哥出海之路',
-      description: '资源全球运营与布局，出海攻略知识库首页。',
-      url: '/',
-      keywords: '首页 漂哥 出海 资源 全球 运营 布局',
-    },
-    {
-      title: '出海攻略总览',
-      description: '国外银行、国外券商、加密 Web3、跨境出海、AI 时代、AI 美女相册目录索引。',
-      url: '/docs/guide',
-      keywords: '目录 攻略 总览 分类',
-    },
-    {
-      title: '关于我',
-      description: '漂哥出海之路作者介绍、推特联系方式和网站内容方向。',
-      url: '/about',
-      keywords: '关于我 作者 可信度 推特',
-    },
-    {
-      title: '金融免责声明',
-      description: '本站内容性质、投资风险提示与第三方链接说明。',
-      url: '/disclaimer',
-      keywords: '免责 声明 风险 合规 法律',
-    },
-  ];
-
-  for (const cat of navItems) {
-    items.push({
-      title: cat.label,
-      description: `${cat.label}栏目所有攻略、对比与实操记录。`,
-      url: cat.indexLink,
-      keywords: cat.label,
-    });
-    for (const it of cat.items) {
-      if (it.type === 'separator') continue;
-      items.push({
-        title: it.label,
-        description: `${cat.label} · ${it.label}`,
-        url: it.to,
-        keywords: `${cat.label} ${it.label}`,
-      });
-    }
-  }
-
-  return items;
-}
-
-function updateSearchBar(navItems) {
-  let src = fs.readFileSync(searchBarPath, 'utf8');
-  const start = src.indexOf('const searchItems = [');
-  if (start === -1) {
-    console.warn('searchItems block not found in SearchBar/index.js, skipping');
-    return;
-  }
-  const arrayStart = src.indexOf('[', start);
-  let depth = 0;
-  let end = -1;
-  for (let i = arrayStart; i < src.length; i++) {
-    const c = src[i];
-    if (c === '[') depth++;
-    else if (c === ']') {
-      depth--;
-      if (depth === 0) {
-        end = i;
-        break;
-      }
-    }
-  }
-  if (end === -1) {
-    console.warn('searchItems array end not found, skipping');
-    return;
-  }
-
-  const items = buildSearchItems(navItems);
-  const itemsSrc = items
-    .map(
-      (it) =>
-        `  {
-    title: '${escapeJs(it.title)}',
-    description: '${escapeJs(it.description)}',
-    url: '${escapeJs(it.url)}',
-    keywords: '${escapeJs(it.keywords)}',
-  }`,
-    )
-    .join(',\n');
-
-  src =
-    src.slice(0, arrayStart) +
-    `[\n${itemsSrc},\n]` +
-    src.slice(end + 1);
-  fs.writeFileSync(searchBarPath, src, 'utf8');
-}
-
 try {
   const navItems = buildNavbar();
   updateConfig(navItems);
-  updateSearchBar(navItems);
   console.log('Navbar synced:');
   for (const c of navItems) {
     const articleCount = c.items.filter((it) => it.type !== 'separator').length;
