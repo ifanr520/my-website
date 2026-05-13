@@ -1,0 +1,10 @@
+{
+  "label": "AI 网络环境",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "AI 网络环境",
+    "description": "海外开发者使用 GPT / Claude / Cursor 等 AI 服务的稳定网络方案：VPS、3X-UI 面板、协议选择、Cloudflare WARP 与优选 IP。",
+    "slug": "/category/ai-network"
+  }
+}

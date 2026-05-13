@@ -103,15 +103,11 @@ function Hero() {
         <p className={styles.heroLead}>{heroLead}</p>
         <div className={styles.heroActions}>
           <Link to="/docs/guide" className={styles.heroCtaPrimary}>
-            进入攻略库
+            布局海外投资
           </Link>
-          <a
-            href="https://x.com/dangnightdrift"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.heroCtaGhost}>
-            关注 @dangnightdrift
-          </a>
+          <Link to="/docs/cross-border/playbooks/overseas-network-setup" className={styles.heroCtaGhost}>
+            出海网络搭建
+          </Link>
         </div>
       </div>
     </section>

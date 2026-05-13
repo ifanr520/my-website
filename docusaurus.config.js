@@ -186,6 +186,8 @@ const config = {
               { label: 'AI 账号注册', to: '/docs/category/ai-account-guides', className: 'navbar-dropdown-section' },
               { label: 'OpenAI / ChatGPT 注册', to: '/docs/ai-era/account-guides/openai-chatgpt' },
               { label: 'Anthropic Claude 注册', to: '/docs/ai-era/account-guides/anthropic-claude' },
+              { label: 'AI 网络环境', to: '/docs/category/ai-network', className: 'navbar-dropdown-section' },
+              { label: 'VPS + 3X-UI 搭建', to: '/docs/ai-era/ai-network/vps-3xui-setup' },
             ],
           },
           {
@@ -232,9 +234,9 @@ const config = {
             ],
           },
           {
-            title: '自媒体',
+            title: '联系方式',
             items: [
-              { label: '推特 / X', href: 'https://x.com/dangnightdrift' },
+              { label: 'Telegram @ifanr520', href: 'https://t.me/ifanr520' },
               { label: 'YouTube', href: 'https://www.youtube.com/@your-channel' },
               { label: 'Facebook', href: 'https://www.facebook.com/your-page' },
             ],
