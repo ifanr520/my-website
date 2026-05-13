@@ -158,7 +158,6 @@ const config = {
               { label: '作品图集展示', to: '/docs/ai-gallery/creative-guides/gallery' },
             ],
           },
-          { href: 'https://x.com/dangnightdrift', label: '推特', position: 'right' },
         ],
       },
       footer: {

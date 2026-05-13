@@ -221,9 +221,7 @@ ${indent}  ],
 ${indent}}`;
   });
 
-  const twitter = `${indent}{ href: 'https://x.com/dangnightdrift', label: '推特', position: 'right' }`;
-
-  return [...dropdowns, twitter].join(',\n');
+  return dropdowns.join(',\n');
 }
 
 function updateConfig(navItems) {
