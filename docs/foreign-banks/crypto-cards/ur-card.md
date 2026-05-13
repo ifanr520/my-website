@@ -1,6 +1,7 @@
 ---
-sidebar_label: UR Card 攻略
-sidebar_position: 9
+sidebar_label: UR Card
+sidebar_position: 5
+description: Web3 原生瑞士 IBAN UR Card 万事达卡：开卡流程、绑定支付与跨境消费实测记录。
 ---
 
 # UR Card 申请全攻略：Web3 原生瑞士 IBAN 万事达卡从零到一

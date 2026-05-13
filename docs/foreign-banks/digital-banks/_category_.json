@@ -1,0 +1,10 @@
+{
+  "label": "数字银行开户",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "数字银行开户",
+    "description": "持牌数字银行的开户全流程实操：申请条件、资料准备、身份认证、入金路径与账户维护。",
+    "slug": "/category/digital-banks"
+  }
+}

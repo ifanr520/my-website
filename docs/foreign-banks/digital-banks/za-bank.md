@@ -1,6 +1,7 @@
 ---
-sidebar_label: ZA Bank 申请攻略
-sidebar_position: 2
+sidebar_label: ZA Bank 香港虚拟银行
+sidebar_position: 1
+description: 香港首家虚拟银行 ZA Bank 全程线上开户、入金路径、银行卡申请与账户维护实操记录。
 ---
 
 # ZA Bank 开户流程攻略

@@ -1,6 +1,7 @@
 ---
-sidebar_label: Wirex Card 攻略
-sidebar_position: 10
+sidebar_label: Wirex Card
+sidebar_position: 6
+description: 老牌欧洲合规加密卡 Wirex Card：Visa/Mastercard 双线、X-Account 高息、跨境消费与提现实测。
 ---
 
 # Wirex Card 申请全攻略：老牌加密 Visa / Mastercard 从零到一

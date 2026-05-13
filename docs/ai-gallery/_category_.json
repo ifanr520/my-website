@@ -1,4 +1,10 @@
 {
   "label": "AI 美女相册",
-  "position": 7
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "title": "AI 美女相册",
+    "description": "AI 视觉创作与提示词工程归档：参数、风格与迭代记录为主，侧重可复现流程。",
+    "slug": "/category/ai-gallery"
+  }
 }

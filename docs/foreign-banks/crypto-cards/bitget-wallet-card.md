@@ -1,6 +1,7 @@
 ---
-sidebar_label: Bitget Wallet Card 攻略
-sidebar_position: 3
+sidebar_label: Bitget Wallet Card
+sidebar_position: 1
+description: Bitget Wallet 与瑞士持牌 Fiat24 联合发行的万事达借记卡，0 开卡费、瑞士独立 IBAN，绑定微信/支付宝实战。
 ---
 
 # Bitget Wallet Card 申请全攻略：瑞士 IBAN 万事达卡从零到一

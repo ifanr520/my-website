@@ -1,0 +1,10 @@
+{
+  "label": "交易所与平台",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "交易所与平台",
+    "description": "全球主流加密交易所、合约平台与现货平台的对比与实操路径。",
+    "slug": "/category/crypto-platforms"
+  }
+}

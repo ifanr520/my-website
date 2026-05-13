@@ -1,6 +1,7 @@
 ---
-sidebar_label: Bybit Card 攻略
-sidebar_position: 5
+sidebar_label: Bybit Card
+sidebar_position: 3
+description: Bybit 哈萨克斯坦 AIFC 万事达卡，最高 10% 返现，VIP 享 ChatGPT/Netflix/Amazon Prime 100% 返现。
 ---
 
 # Bybit Card 申请全攻略：哈萨克斯坦万事达卡从零到一

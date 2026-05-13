@@ -1,0 +1,10 @@
+{
+  "label": "加密银行卡",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "加密银行卡",
+    "description": "USDT/USDC 直接消费的 Visa / Mastercard 借记卡：发卡资质、费率、绑定支付与跨境消费实测。",
+    "slug": "/category/crypto-cards"
+  }
+}

@@ -1,4 +1,11 @@
 {
   "label": "国外银行",
-  "position": 2
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "国外银行",
+    "description": "海外银行账户与加密银行卡的实战记录：开户条件、入金路径、费率结构、风控触发点和长期维护经验。",
+    "slug": "/category/foreign-banks",
+    "keywords": ["国外银行", "海外开户", "加密银行卡", "Fiat24", "ZA Bank", "iFast"]
+  }
 }

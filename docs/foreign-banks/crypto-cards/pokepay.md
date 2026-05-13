@@ -1,6 +1,7 @@
 ---
-sidebar_label: Pokepay 攻略
-sidebar_position: 8
+sidebar_label: Pokepay
+sidebar_position: 4
+description: 持牌香港 MSO/北美 MSB 的 Pokepay 加密 Visa 卡：开卡 5U、0 月费、余额可提现，覆盖 ChatGPT/Netflix/Amazon。
 ---
 
 # Pokepay 申请全攻略：加密虚拟 Visa 卡从零到一

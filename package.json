@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "node scripts/extract-doc-thumbnails.js && docusaurus start",
+    "start": "node scripts/extract-doc-thumbnails.js && node scripts/sync-navbar.js && docusaurus start",
     "build": "node scripts/extract-doc-thumbnails.js && node scripts/sync-navbar.js && docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",

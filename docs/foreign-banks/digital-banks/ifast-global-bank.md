@@ -1,6 +1,7 @@
 ---
-sidebar_label: iFast Global Bank 攻略
-sidebar_position: 4
+sidebar_label: iFast Global Bank 英国
+sidebar_position: 2
+description: 英国 FCA & PRA 双重监管的多币种数字银行 iFast Global Bank 全流程开户与活定期存款记录。
 ---
 
 # iFast Global Bank 开户实操指南

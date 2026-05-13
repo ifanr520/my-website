@@ -1,6 +1,7 @@
 ---
-sidebar_label: SafePal Card 攻略
-sidebar_position: 4
+sidebar_label: SafePal Card
+sidebar_position: 2
+description: SafePal × Fiat24 瑞士 IBAN 万事达卡，666U 月度汇损补贴、绑微信支付宝、可直入 IBKR/嘉信美股券商。
 ---
 
 # SafePal Card 申请全攻略：瑞士 IBAN 万事达卡从零到一

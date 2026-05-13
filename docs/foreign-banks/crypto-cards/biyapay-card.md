@@ -1,5 +1,9 @@
-Biyapay Card（速捷卡）
-申请全攻略：USDT 直消费虚拟 Visa 卡从零到一
+---
+sidebar_label: BiyaPay 速捷卡
+sidebar_position: 7
+---
+
+# BiyaPay 速捷卡申请全攻略：USDT 直消费虚拟 Visa 卡
 
 BiyaPay 是由 BIYA GLOBAL LLC 运营的合规多资产交易平台，在美国 FinCEN 注册为货币服务提供商（MSB），注册号 31000218637349。平台集国际汇款 \+ 美股港股交易 \+ 虚拟 Visa 卡于一体，其「速捷卡」是面向全球用户的 Visa 虚拟预付卡，以 USDT 充值驱动，覆盖 190\+ 国家，特别适合跨境订阅、电商广告投放等场景。
 

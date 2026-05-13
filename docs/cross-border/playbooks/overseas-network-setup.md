@@ -1,6 +1,7 @@
 ---
 sidebar_label: 出海网络环境部署
 sidebar_position: 2
+description: 稳定的科学上网、海外 App 下载与境外手机号三大前提的硬件级搭建方案。
 ---
 
 # 出海网络环境部署全攻略：三关通关指南

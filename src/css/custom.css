@@ -1,46 +1,60 @@
 @import '@fontsource/geist-sans/latin-400.css';
 @import '@fontsource/geist-sans/latin-500.css';
 @import '@fontsource/geist-sans/latin-600.css';
+@import '@fontsource/geist-sans/latin-700.css';
 @import '@fontsource/noto-sans-sc/chinese-simplified-400.css';
 @import '@fontsource/noto-sans-sc/chinese-simplified-500.css';
 @import '@fontsource/noto-sans-sc/chinese-simplified-600.css';
 @import '@fontsource/noto-sans-sc/chinese-simplified-700.css';
 
+/* ============================================================================
+ * Design tokens — one font family across navbar / sidebar / body / headings
+ * ========================================================================== */
+
 :root {
-  --site-font-body:
-    "Geist Sans", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", ui-sans-serif,
-    system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --site-font-heading:
-    "Geist Sans", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", ui-sans-serif,
-    system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --site-font-nav: "Geist Sans", "Noto Sans SC", ui-sans-serif, system-ui, sans-serif;
+  /* Single, unified font stack for the whole site (navbar-style) */
+  --site-font-stack:
+    "Geist Sans", "Noto Sans SC", "PingFang SC", "Microsoft YaHei",
+    ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  --site-font-body: var(--site-font-stack);
+  --site-font-heading: var(--site-font-stack);
+  --site-font-nav: var(--site-font-stack);
+
   --navbar-vercel-border: #eaeaea;
-  --navbar-vercel-link: #666666;
-  --navbar-vercel-link-active: #111111;
+  --navbar-vercel-link: #525252;
+  --navbar-vercel-link-active: #0a2540;
   --navbar-vercel-hover-bg: #f4f4f5;
-  --navbar-vercel-dropdown-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
-  --ifm-color-primary: #0f766e;
-  --ifm-color-primary-dark: #115e59;
-  --ifm-color-primary-darker: #134e4a;
-  --ifm-color-primary-darkest: #0f3f3c;
-  --ifm-color-primary-light: #0d9488;
-  --ifm-color-primary-lighter: #14b8a6;
-  --ifm-color-primary-lightest: #2dd4bf;
-  --ifm-background-color: #fbfaf7;
+  --navbar-vercel-dropdown-shadow: 0 8px 28px rgba(15, 23, 42, 0.08);
+
+  --ifm-color-primary: #0a2540;
+  --ifm-color-primary-dark: #082037;
+  --ifm-color-primary-darker: #061a2e;
+  --ifm-color-primary-darkest: #04111f;
+  --ifm-color-primary-light: #112d4f;
+  --ifm-color-primary-lighter: #1a3a64;
+  --ifm-color-primary-lightest: #2d508a;
+
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #ffffff;
+
   --ifm-navbar-height: 64px;
   --ifm-navbar-background-color: rgba(255, 255, 255, 0.78);
   --ifm-navbar-shadow: none;
   --ifm-navbar-link-color: var(--navbar-vercel-link);
   --ifm-navbar-link-hover-color: var(--navbar-vercel-link-active);
+
   --ifm-font-family-base: var(--site-font-body);
   --ifm-heading-font-family: var(--site-font-heading);
-  --ifm-heading-font-weight: 760;
-  --ifm-heading-color: #111827;
+  --ifm-heading-font-weight: 700;
+  --ifm-heading-color: #0a2540;
   --ifm-card-background-color: #ffffff;
-  --ifm-footer-background-color: #111827;
-  --ifm-code-font-size: 95%;
-  --ifm-global-radius: 8px;
-  --ifm-container-width-xl: 1180px;
+  --ifm-footer-background-color: #f8fafc;
+  --ifm-code-font-size: 92%;
+  --ifm-global-radius: 10px;
+  --ifm-container-width-xl: 1200px;
+
+  --site-accent: #635bff;
 }
 
 [data-theme='dark'] {
@@ -48,20 +62,32 @@
   --navbar-vercel-link: #a1a1a1;
   --navbar-vercel-link-active: #fafafa;
   --navbar-vercel-hover-bg: rgba(255, 255, 255, 0.08);
-  --navbar-vercel-dropdown-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+  --navbar-vercel-dropdown-shadow: 0 10px 36px rgba(0, 0, 0, 0.45);
   --ifm-navbar-background-color: rgba(10, 10, 10, 0.72);
   --ifm-navbar-link-color: var(--navbar-vercel-link);
   --ifm-navbar-link-hover-color: var(--navbar-vercel-link-active);
-  --ifm-color-primary: #5eead4;
-  --ifm-color-primary-dark: #2dd4bf;
-  --ifm-color-primary-darker: #14b8a6;
-  --ifm-color-primary-darkest: #0d9488;
-  --ifm-color-primary-light: #99f6e4;
-  --ifm-color-primary-lighter: #ccfbf1;
-  --ifm-color-primary-lightest: #f0fdfa;
-  --ifm-background-color: #0f172a;
+  --ifm-color-primary: #c7d2fe;
+  --ifm-color-primary-dark: #a5b4fc;
+  --ifm-color-primary-darker: #818cf8;
+  --ifm-color-primary-darkest: #6366f1;
+  --ifm-color-primary-light: #ddd6fe;
+  --ifm-color-primary-lighter: #e9d5ff;
+  --ifm-color-primary-lightest: #f3e8ff;
+  --ifm-background-color: #0b1220;
   --ifm-card-background-color: #111827;
   --ifm-heading-color: #f8fafc;
+  --ifm-footer-background-color: #0a1019;
+
+  --site-accent: #a5b4fc;
+}
+
+html,
+body,
+button,
+input,
+select,
+textarea {
+  font-family: var(--site-font-stack);
 }
 
 html {
@@ -72,11 +98,26 @@ html {
 }
 
 body {
-  letter-spacing: -0.01em;
+  letter-spacing: -0.005em;
+  font-feature-settings: "kern", "liga", "ss01";
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--site-font-stack);
+  letter-spacing: -0.025em;
+}
+
+/* ============================================================================
+ * Top navbar — Vercel-like minimal + glass
+ * ========================================================================== */
+
 .navbar {
-  font-family: var(--site-font-nav);
+  font-family: var(--site-font-stack);
   border-bottom: 1px solid var(--navbar-vercel-border);
   box-shadow: none;
   backdrop-filter: saturate(180%) blur(14px);
@@ -99,7 +140,7 @@ body {
 }
 
 .navbar__title {
-  font-family: var(--site-font-nav);
+  font-family: var(--site-font-stack);
   font-size: 0.95rem;
   font-weight: 600;
   letter-spacing: -0.04em;
@@ -158,6 +199,7 @@ body {
 .dropdown__menu {
   margin-top: 6px;
   padding: 6px;
+  min-width: 240px;
   background: var(--ifm-card-background-color);
   border: 1px solid var(--navbar-vercel-border);
   border-radius: 12px;
@@ -185,13 +227,45 @@ body {
   font-weight: 600;
 }
 
+/* Subcategory section header inside navbar dropdown — visually distinct
+   (rendered when sync-navbar.js generates `className: 'navbar-dropdown-section'`). */
+.dropdown__menu .dropdown__link.navbar-dropdown-section {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ifm-color-content-secondary);
+  margin-top: 6px;
+  padding-top: 10px;
+  padding-bottom: 6px;
+  border-top: 1px dashed var(--ifm-color-emphasis-200);
+  border-radius: 0;
+  background: transparent;
+}
+
+.dropdown__menu li:first-child .dropdown__link.navbar-dropdown-section {
+  margin-top: 0;
+  padding-top: 6px;
+  border-top: none;
+}
+
+.dropdown__menu .dropdown__link.navbar-dropdown-section:hover {
+  color: var(--navbar-vercel-link-active);
+  background: transparent;
+}
+
+/* ============================================================================
+ * Mobile navbar sidebar
+ * ========================================================================== */
+
 .navbar-sidebar {
   border-right: 1px solid var(--navbar-vercel-border);
+  font-family: var(--site-font-stack);
 }
 
 .navbar-sidebar .menu__link {
-  font-family: var(--site-font-nav);
-  font-size: 0.9rem;
+  font-family: var(--site-font-stack);
+  font-size: 0.94rem;
   font-weight: 500;
   letter-spacing: -0.02em;
   border-radius: 8px;
@@ -201,44 +275,107 @@ body {
   border-radius: 8px;
 }
 
+/* ============================================================================
+ * Buttons (homepage CTAs and shared)
+ * ========================================================================== */
+
 .button {
-  border-radius: 8px;
-  font-weight: 750;
+  border-radius: 999px;
+  font-weight: 600;
+  font-family: var(--site-font-stack);
+  letter-spacing: -0.02em;
 }
 
 .button--primary {
-  box-shadow: 0 8px 22px rgba(15, 118, 110, 0.18);
+  box-shadow: 0 6px 18px rgba(10, 37, 64, 0.18);
 }
 
 .button--secondary {
-  color: #111827;
+  color: #0a2540;
   border-color: #fbbf24;
   background: #fbbf24;
 }
 
 .button--secondary:hover {
-  color: #111827;
+  color: #0a2540;
   border-color: #f59e0b;
   background: #f59e0b;
 }
 
+/* ============================================================================
+ * Doc page sidebar (left nav)
+ * ========================================================================== */
+
 .theme-doc-sidebar-container {
   border-right: 1px solid var(--ifm-color-emphasis-200);
+  background: var(--ifm-background-color);
+}
+
+.theme-doc-sidebar-menu,
+.menu,
+.menu__list,
+.menu__link,
+.menu__list-item-collapsible {
+  font-family: var(--site-font-stack);
 }
 
 .theme-doc-sidebar-menu {
-  font-size: 0.95rem;
-  font-weight: 620;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: -0.015em;
 }
 
-.menu__list-item-collapsible,
 .menu__link {
+  padding: 0.42rem 0.75rem;
+  border-radius: 8px;
+  color: var(--navbar-vercel-link);
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  transition:
+    color 120ms ease,
+    background-color 120ms ease;
+}
+
+.menu__link:hover {
+  color: var(--navbar-vercel-link-active);
+  background: var(--navbar-vercel-hover-bg);
+}
+
+.menu__link--active,
+.menu__link--active:hover {
+  color: var(--navbar-vercel-link-active);
+  background: var(--ifm-color-emphasis-100);
+  font-weight: 600;
+}
+
+[data-theme='dark'] .menu__link--active,
+[data-theme='dark'] .menu__link--active:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.menu__list-item-collapsible {
   border-radius: 8px;
 }
 
-.menu__link--active {
-  font-weight: 760;
+.menu__list-item-collapsible:hover {
+  background: var(--navbar-vercel-hover-bg);
 }
+
+.menu__caret::before,
+.menu__link--sublist-caret::after {
+  opacity: 0.5;
+}
+
+/* Top-level category headers in sidebar — slightly bolder */
+.theme-doc-sidebar-item-category-level-1 > .menu__list-item-collapsible > .menu__link,
+.theme-doc-sidebar-item-link-level-1 > .menu__link {
+  font-weight: 600;
+  font-size: 0.94rem;
+}
+
+/* ============================================================================
+ * Markdown article body
+ * ========================================================================== */
 
 .theme-doc-markdown {
   max-width: 820px;
@@ -248,17 +385,21 @@ body {
 
 .theme-doc-markdown h1,
 .theme-doc-markdown h2,
-.theme-doc-markdown h3 {
-  letter-spacing: 0;
+.theme-doc-markdown h3,
+.theme-doc-markdown h4 {
+  font-family: var(--site-font-stack);
+  letter-spacing: -0.025em;
 }
 
 .theme-doc-markdown h1 {
   font-size: clamp(2rem, 5vw, 2.65rem);
+  font-weight: 700;
 }
 
 .theme-doc-markdown h2 {
   padding-top: 0.8rem;
   border-top: 1px solid var(--ifm-color-emphasis-200);
+  font-weight: 700;
 }
 
 .theme-doc-markdown p,
@@ -267,10 +408,34 @@ body {
 }
 
 .pagination-nav__link {
-  border-radius: 8px;
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease,
+    transform 0.15s ease;
 }
 
+.pagination-nav__link:hover {
+  border-color: rgba(99, 91, 255, 0.4);
+  box-shadow: 0 6px 22px rgba(15, 23, 42, 0.08);
+  transform: translateY(-1px);
+}
+
+.pagination-nav__sublabel {
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ifm-color-content-secondary);
+}
+
+/* ============================================================================
+ * Footer
+ * ========================================================================== */
+
 .footer {
+  font-family: var(--site-font-stack);
   margin-top: 0;
   padding: 3.25rem 0 2.75rem;
   background: #f6f9fc;
@@ -279,7 +444,7 @@ body {
 }
 
 [data-theme='dark'] .footer {
-  background: #0b1220;
+  background: #0a1019;
   color: #94a3b8;
   border-top-color: rgba(255, 255, 255, 0.08);
 }
@@ -308,7 +473,7 @@ body {
 }
 
 .footer__link-item a:hover {
-  color: #635bff;
+  color: var(--site-accent);
   text-decoration: none;
 }
 
@@ -361,6 +526,10 @@ body {
   color: #64748b;
 }
 
+/* ============================================================================
+ * Article carousel & gallery (legacy classes, kept for backwards compat)
+ * ========================================================================== */
+
 .article-grid {
   display: flex;
   flex-direction: column;
@@ -372,7 +541,7 @@ body {
   display: flex;
   gap: 1.5rem;
   background: var(--ifm-card-background-color);
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   transition: all 0.2s ease;
@@ -414,7 +583,7 @@ body {
 }
 
 .article-info h4 a:hover {
-  color: var(--ifm-color-primary);
+  color: var(--site-accent);
 }
 
 .article-info p {
@@ -428,6 +597,10 @@ body {
   overflow: hidden;
 }
 
+/* ============================================================================
+ * Responsive — mobile polish
+ * ========================================================================== */
+
 @media screen and (max-width: 996px) {
   .navbar-sidebar .navbar__items {
     align-items: stretch;
@@ -436,6 +609,10 @@ body {
   .navbar-sidebar .navbar__item,
   .navbar-sidebar .navbar__link {
     width: 100%;
+  }
+
+  .theme-doc-sidebar-container {
+    box-shadow: 0 12px 36px rgba(15, 23, 42, 0.16);
   }
 }
 
@@ -452,6 +629,14 @@ body {
   .article-info {
     padding: 1rem;
   }
+
+  .footer {
+    padding: 2.4rem 0 2rem;
+  }
+
+  .footer__col {
+    margin-bottom: 1.25rem;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -459,10 +644,38 @@ body {
     --ifm-navbar-height: 58px;
   }
 
+  .navbar__title {
+    font-size: 0.92rem;
+  }
+
   .theme-doc-markdown {
     font-size: 16px;
+    line-height: 1.78;
+  }
+
+  .theme-doc-markdown h1 {
+    font-size: clamp(1.65rem, 6vw, 2rem);
+  }
+
+  .pagination-nav {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .pagination-nav__link {
+    padding: 0.85rem 1rem;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
 }
+
+/* ============================================================================
+ * Carousel page (AI gallery)
+ * ========================================================================== */
 
 .carousel-root {
   outline: none;

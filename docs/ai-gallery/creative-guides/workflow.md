@@ -1,6 +1,7 @@
 ---
-sidebar_label: 相册制作流程
-sidebar_position: 2
+sidebar_label: 相册制作工作流
+sidebar_position: 1
+description: AI 美女相册主题策划、提示词设计、批量生成、筛选修图、压缩到发布的完整制作流程。
 ---
 
 # AI 美女相册制作流程

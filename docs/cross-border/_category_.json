@@ -1,4 +1,10 @@
 {
   "label": "跨境出海",
-  "position": 5
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "跨境出海",
+    "description": "主体设立、跨境收付、内容与增长渠道的落地笔记：合规扩张与全球资产配置前的信息拼图。",
+    "slug": "/category/cross-border"
+  }
 }

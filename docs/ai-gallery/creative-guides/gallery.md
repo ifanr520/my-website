@@ -1,6 +1,7 @@
 ---
-sidebar_label: 作品展示
+sidebar_label: 作品图集展示
 sidebar_position: 2
+description: AI 美女相册作品展示页：写真合集、生成参数与提示词留档。
 ---
 
 # AI 美女相册 · 作品展示
