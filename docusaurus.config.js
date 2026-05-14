@@ -71,7 +71,8 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {
         defaultMode: 'light',
-        respectPrefersColorScheme: true,
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
       navbar: {
         title: 'Ken的海',
@@ -199,6 +200,7 @@ const config = {
               { label: '美国ITIN的作用', to: '/docs/全球观察/us-itin-guide' },
               { label: 'AI改写跨境套利', to: '/docs/全球观察/ai-arbitrage' },
               { label: '链上数据分析', to: '/docs/全球观察/链上数据分析（On-Chain Analysis）' },
+              { label: '币安1011事件分析', to: '/docs/全球观察/加密货币币安1011分析' },
             ],
           },
         ],
