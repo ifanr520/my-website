@@ -978,15 +978,11 @@ h6 {
 
 
 /* ============================================================================
- * Search bar removed — hide any default search container injected by themes
+ * Search bar styling
  * ========================================================================== */
 
-.navbar__search,
-.DocSearch,
-.DocSearch-Button,
-[class*='searchBox_'],
-[class*='navbarSearchContainer_'] {
-  display: none !important;
+.navbar__search {
+  margin-right: 8px;
 }
 
 /* ============================================================================

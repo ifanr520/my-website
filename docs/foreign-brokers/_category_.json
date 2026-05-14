@@ -1,9 +1,9 @@
 {
-  "label": "国外券商",
+  "label": "国际证券",
   "position": 3,
   "link": {
     "type": "generated-index",
-    "title": "国外券商",
+    "title": "国际证券",
     "description": "境外券商开户与资金路径梳理：交易与融资费率、税务表格要点，以及账户安全与长期仓位记录。",
     "slug": "/category/foreign-brokers"
   }

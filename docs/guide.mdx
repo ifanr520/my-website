@@ -1,7 +1,7 @@
 ---
 sidebar_label: 出海攻略总览
 sidebar_position: 1
-slug: /guide
+slug: /docs/guide
 description: 出海资源直通车 · 按热度推荐的交易所、加密卡、券商、跨境银行与换汇工具一站式导航。
 ---
 
@@ -9,7 +9,172 @@ import ResourceGrid from '@site/src/components/ResourceGrid';
 
 # 出海资源直通车
 
-按网络热度推荐，覆盖**交易所 → 加密银行卡 → 美股券商 → 港股券商 → 跨境银行 / 换汇 → 钱包**完整资金路径。所有资源均带邀请码占位，复制即用，详细教程已链接到对应实操文章。
+按网络热度推荐，覆盖**跨境银行 / 换汇 → 加密银行卡 → 交易所 → 美股券商 → 港股券商 → 钱包**完整资金路径。所有资源均带邀请码占位，复制即用，详细教程已链接到对应实操文章。
+
+<ResourceGrid
+  emoji="🏦"
+  title="跨境银行 / 换汇"
+  description="境外法币账户与多币种换汇核心，决定资金从国内到境外的损耗"
+  count={5}
+  resources={[
+    {
+      brand: 'iF',
+      brandColor: '#fff',
+      brandBg: '#1d4ed8',
+      name: 'iFAST Global Bank',
+      tags: ['英国 FCA', '出境首选'],
+      hotBadge: '🔥 Ken自用',
+      description: '英国 FCA & PRA 双重监管，活期 2.80% / 定期 4.30% AER，FSCS £120,000 保险',
+      bonus: '免年费 / 免最低余额',
+      inviteCode: 'YOUR_IFAST_REF',
+      rating: 5.0,
+      officialUrl: 'https://www.ifastgb.com',
+      tutorialUrl: '/docs/foreign-banks/digital-banks/ifast-global-bank',
+    },
+    {
+      brand: 'ZA',
+      brandColor: '#fff',
+      brandBg: '#000',
+      name: '众安银行 ZA',
+      tags: ['香港持牌', '币安直入'],
+      description: '香港首家虚拟银行，全程线上开户，可直接接收币安 / Kraken 入金',
+      inviteCode: 'YOUR_ZABANK_REF',
+      rating: 4.5,
+      officialUrl: 'https://bank.za.com',
+      tutorialUrl: '/docs/foreign-banks/digital-banks/za-bank',
+    },
+    {
+      brand: 'WS',
+      brandColor: '#fff',
+      brandBg: '#37517e',
+      name: 'Wise',
+      tags: ['换汇核心'],
+      description: '40+ 货币互转，汇率接近市场价，手续费约 0.3%~0.5%，跨境出金核心',
+      inviteCode: 'YOUR_WISE_REF',
+      rating: 4.5,
+      officialUrl: 'https://wise.com',
+      tutorialUrl: null,
+    },
+    {
+      brand: 'BP',
+      brandColor: '#fff',
+      brandBg: '#10b981',
+      name: 'BiyaPay 平台',
+      tags: ['USDT 直入券商'],
+      description: '美国 FinCEN MSB 持牌，USDT → USD 零损耗换汇，可直入嘉信 / IBKR',
+      inviteCode: 'YOUR_BIYAPAY_REF',
+      rating: 4.5,
+      officialUrl: 'https://www.biyapay.com',
+      tutorialUrl: '/docs/foreign-brokers/tokenized-stocks/biyapay',
+    },
+    {
+      brand: 'SX',
+      brandColor: '#fff',
+      brandBg: '#dc2626',
+      name: 'StraitsX',
+      tags: ['新加坡通道'],
+      description: '新加坡持牌稳定币平台，⇄ DBS / OCBC 法币互转，XSGD 稳定币核心',
+      inviteCode: 'YOUR_STRAITSX_REF',
+      rating: 4.0,
+      officialUrl: 'https://www.straitsx.com',
+      tutorialUrl: null,
+    },
+  ]}
+/>
+
+<ResourceGrid
+  emoji="💳"
+  title="加密银行卡"
+  description="加密资产直接消费，打通 Crypto 与现实世界的最后一公里"
+  count={7}
+  resources={[
+    {
+      brand: 'BG',
+      brandColor: '#fef3c7',
+      brandBg: '#0a4f4a',
+      name: 'Bitget Wallet Card',
+      tags: ['热门', '绑微信'],
+      hotBadge: '🔥 Ken自用',
+      description: 'Bitget Wallet × Fiat24 瑞士 IBAN 万事达卡，0 年费、绑微信支付宝、月免费额度',
+      inviteCode: 'YOUR_BITGET_REF',
+      rating: 5.0,
+      officialUrl: 'https://web3.bitget.com',
+      tutorialUrl: '/docs/foreign-banks/crypto-cards/bitget-wallet-card',
+    },
+    {
+      brand: 'SPL',
+      brandColor: '#fff',
+      brandBg: '#7c3aed',
+      name: 'SafePal Card',
+      tags: ['666U 补贴'],
+      description: 'SafePal × Fiat24 瑞士 IBAN 卡，666U/月汇损补贴，可直入 IBKR / 嘉信',
+      inviteCode: 'YOUR_SAFEPAL_REF',
+      rating: 4.5,
+      officialUrl: 'https://www.safepal.com',
+      tutorialUrl: '/docs/foreign-banks/crypto-cards/safepal-card',
+    },
+    {
+      brand: 'BB',
+      brandColor: '#fff',
+      brandBg: '#1a1a40',
+      name: 'Bybit Card',
+      tags: ['10% 返现'],
+      description: 'Bybit 哈萨克 AIFC 万事达卡，最高 10% 返现，VIP 享 ChatGPT 等 100% 返现',
+      inviteCode: 'YOUR_BYBIT_REF',
+      rating: 4.5,
+      officialUrl: 'https://www.bybit.com',
+      tutorialUrl: '/docs/foreign-banks/crypto-cards/bybit-card',
+    },
+    {
+      brand: 'PK',
+      brandColor: '#fff',
+      brandBg: '#ec4899',
+      name: 'Pokepay',
+      tags: ['可提现', '门槛低'],
+      description: '面向华人的加密支付卡，开卡仅 5U，余额可提现回钱包',
+      inviteCode: 'YOUR_POKEPAY_REF',
+      rating: 4.0,
+      officialUrl: 'https://pokepay.io',
+      tutorialUrl: '/docs/foreign-banks/crypto-cards/pokepay',
+    },
+    {
+      brand: 'UR',
+      brandColor: '#fff',
+      brandBg: '#0f172a',
+      name: 'UR Card',
+      tags: ['Web3 原生'],
+      description: 'Web3 原生瑞士 IBAN 万事达卡，多币种消费场景丰富',
+      inviteCode: 'YOUR_UR_REF',
+      rating: 4.0,
+      officialUrl: 'https://www.ur.io',
+      tutorialUrl: '/docs/foreign-banks/crypto-cards/ur-card',
+    },
+    {
+      brand: 'WX',
+      brandColor: '#fff',
+      brandBg: '#0ea5e9',
+      name: 'Wirex Card',
+      tags: ['欧洲合规'],
+      description: '老牌欧洲合规加密卡，Visa / Mastercard 双线，X-Account 高息理财',
+      inviteCode: 'YOUR_WIREX_REF',
+      rating: 4.0,
+      officialUrl: 'https://wirexapp.com',
+      tutorialUrl: '/docs/foreign-banks/crypto-cards/wirex-card',
+    },
+    {
+      brand: 'BP',
+      brandColor: '#fff',
+      brandBg: '#10b981',
+      name: 'BiyaPay 速捷卡',
+      tags: ['美股入金'],
+      description: 'USDT 充值 Visa 虚拟卡，并支持直接入金嘉信 / IBKR 美股账户',
+      inviteCode: 'YOUR_BIYAPAY_REF',
+      rating: 4.0,
+      officialUrl: 'https://www.biyapay.com',
+      tutorialUrl: '/docs/foreign-banks/crypto-cards/biyapay-card',
+    },
+  ]}
+/>
 
 <ResourceGrid
   emoji="📈"
@@ -122,100 +287,6 @@ import ResourceGrid from '@site/src/components/ResourceGrid';
       rating: 4.5,
       officialUrl: 'https://www.coinbase.com',
       tutorialUrl: '/docs/crypto-web3/platform-guides/coinbase',
-    },
-  ]}
-/>
-
-<ResourceGrid
-  emoji="💳"
-  title="加密银行卡"
-  description="加密资产直接消费，打通 Crypto 与现实世界的最后一公里"
-  count={7}
-  resources={[
-    {
-      brand: 'BG',
-      brandColor: '#fef3c7',
-      brandBg: '#0a4f4a',
-      name: 'Bitget Wallet Card',
-      tags: ['热门', '绑微信'],
-      hotBadge: '🔥 Ken自用',
-      description: 'Bitget Wallet × Fiat24 瑞士 IBAN 万事达卡，0 年费、绑微信支付宝、月免费额度',
-      inviteCode: 'YOUR_BITGET_REF',
-      rating: 5.0,
-      officialUrl: 'https://web3.bitget.com',
-      tutorialUrl: '/docs/foreign-banks/crypto-cards/bitget-wallet-card',
-    },
-    {
-      brand: 'SPL',
-      brandColor: '#fff',
-      brandBg: '#7c3aed',
-      name: 'SafePal Card',
-      tags: ['666U 补贴'],
-      description: 'SafePal × Fiat24 瑞士 IBAN 卡，666U/月汇损补贴，可直入 IBKR / 嘉信',
-      inviteCode: 'YOUR_SAFEPAL_REF',
-      rating: 4.5,
-      officialUrl: 'https://www.safepal.com',
-      tutorialUrl: '/docs/foreign-banks/crypto-cards/safepal-card',
-    },
-    {
-      brand: 'BB',
-      brandColor: '#fff',
-      brandBg: '#1a1a40',
-      name: 'Bybit Card',
-      tags: ['10% 返现'],
-      description: 'Bybit 哈萨克 AIFC 万事达卡，最高 10% 返现，VIP 享 ChatGPT 等 100% 返现',
-      inviteCode: 'YOUR_BYBIT_REF',
-      rating: 4.5,
-      officialUrl: 'https://www.bybit.com',
-      tutorialUrl: '/docs/foreign-banks/crypto-cards/bybit-card',
-    },
-    {
-      brand: 'PK',
-      brandColor: '#fff',
-      brandBg: '#ec4899',
-      name: 'Pokepay',
-      tags: ['可提现', '门槛低'],
-      description: '面向华人的加密支付卡，开卡仅 5U，余额可提现回钱包',
-      inviteCode: 'YOUR_POKEPAY_REF',
-      rating: 4.0,
-      officialUrl: 'https://pokepay.io',
-      tutorialUrl: '/docs/foreign-banks/crypto-cards/pokepay',
-    },
-    {
-      brand: 'UR',
-      brandColor: '#fff',
-      brandBg: '#0f172a',
-      name: 'UR Card',
-      tags: ['Web3 原生'],
-      description: 'Web3 原生瑞士 IBAN 万事达卡，多币种消费场景丰富',
-      inviteCode: 'YOUR_UR_REF',
-      rating: 4.0,
-      officialUrl: 'https://www.ur.io',
-      tutorialUrl: '/docs/foreign-banks/crypto-cards/ur-card',
-    },
-    {
-      brand: 'WX',
-      brandColor: '#fff',
-      brandBg: '#0ea5e9',
-      name: 'Wirex Card',
-      tags: ['欧洲合规'],
-      description: '老牌欧洲合规加密卡，Visa / Mastercard 双线，X-Account 高息理财',
-      inviteCode: 'YOUR_WIREX_REF',
-      rating: 4.0,
-      officialUrl: 'https://wirexapp.com',
-      tutorialUrl: '/docs/foreign-banks/crypto-cards/wirex-card',
-    },
-    {
-      brand: 'BP',
-      brandColor: '#fff',
-      brandBg: '#10b981',
-      name: 'BiyaPay 速捷卡',
-      tags: ['美股入金'],
-      description: 'USDT 充值 Visa 虚拟卡，并支持直接入金嘉信 / IBKR 美股账户',
-      inviteCode: 'YOUR_BIYAPAY_REF',
-      rating: 4.0,
-      officialUrl: 'https://www.biyapay.com',
-      tutorialUrl: '/docs/foreign-banks/crypto-cards/biyapay-card',
     },
   ]}
 />
@@ -379,77 +450,6 @@ import ResourceGrid from '@site/src/components/ResourceGrid';
       rating: 4.0,
       officialUrl: 'https://www.fosunwealth.com.hk',
       tutorialUrl: '/docs/foreign-brokers/hk-brokers/fosun',
-    },
-  ]}
-/>
-
-<ResourceGrid
-  emoji="🏦"
-  title="跨境银行 / 换汇"
-  description="境外法币账户与多币种换汇核心，决定资金从国内到境外的损耗"
-  count={5}
-  resources={[
-    {
-      brand: 'iF',
-      brandColor: '#fff',
-      brandBg: '#1d4ed8',
-      name: 'iFAST Global Bank',
-      tags: ['英国 FCA', '出境首选'],
-      hotBadge: '🔥 Ken自用',
-      description: '英国 FCA & PRA 双重监管，活期 2.80% / 定期 4.30% AER，FSCS £120,000 保险',
-      bonus: '免年费 / 免最低余额',
-      inviteCode: 'YOUR_IFAST_REF',
-      rating: 5.0,
-      officialUrl: 'https://www.ifastgb.com',
-      tutorialUrl: '/docs/foreign-banks/digital-banks/ifast-global-bank',
-    },
-    {
-      brand: 'ZA',
-      brandColor: '#fff',
-      brandBg: '#000',
-      name: '众安银行 ZA',
-      tags: ['香港持牌', '币安直入'],
-      description: '香港首家虚拟银行，全程线上开户，可直接接收币安 / Kraken 入金',
-      inviteCode: 'YOUR_ZABANK_REF',
-      rating: 4.5,
-      officialUrl: 'https://bank.za.com',
-      tutorialUrl: '/docs/foreign-banks/digital-banks/za-bank',
-    },
-    {
-      brand: 'WS',
-      brandColor: '#fff',
-      brandBg: '#37517e',
-      name: 'Wise',
-      tags: ['换汇核心'],
-      description: '40+ 货币互转，汇率接近市场价，手续费约 0.3%~0.5%，跨境出金核心',
-      inviteCode: 'YOUR_WISE_REF',
-      rating: 4.5,
-      officialUrl: 'https://wise.com',
-      tutorialUrl: null,
-    },
-    {
-      brand: 'BP',
-      brandColor: '#fff',
-      brandBg: '#10b981',
-      name: 'BiyaPay 平台',
-      tags: ['USDT 直入券商'],
-      description: '美国 FinCEN MSB 持牌，USDT → USD 零损耗换汇，可直入嘉信 / IBKR',
-      inviteCode: 'YOUR_BIYAPAY_REF',
-      rating: 4.5,
-      officialUrl: 'https://www.biyapay.com',
-      tutorialUrl: '/docs/foreign-brokers/tokenized-stocks/biyapay',
-    },
-    {
-      brand: 'SX',
-      brandColor: '#fff',
-      brandBg: '#dc2626',
-      name: 'StraitsX',
-      tags: ['新加坡通道'],
-      description: '新加坡持牌稳定币平台，⇄ DBS / OCBC 法币互转，XSGD 稳定币核心',
-      inviteCode: 'YOUR_STRAITSX_REF',
-      rating: 4.0,
-      officialUrl: 'https://www.straitsx.com',
-      tutorialUrl: null,
     },
   ]}
 />

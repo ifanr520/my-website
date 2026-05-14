@@ -82,7 +82,7 @@ const config = {
         },
         items: [
           {
-            label: '国外银行',
+            label: '全球银行',
             position: 'left',
             items: [
               { label: '栏目首页', to: '/docs/category/foreign-banks' },
@@ -106,7 +106,7 @@ const config = {
             ],
           },
           {
-            label: '国外券商',
+            label: '国际证券',
             position: 'left',
             items: [
               { label: '栏目首页', to: '/docs/category/foreign-brokers' },
@@ -133,7 +133,7 @@ const config = {
             ],
           },
           {
-            label: '加密 Web3',
+            label: 'Web3金融',
             position: 'left',
             items: [
               { label: '栏目首页', to: '/docs/category/crypto-web3' },
@@ -178,7 +178,7 @@ const config = {
             ],
           },
           {
-            label: 'AI 时代',
+            label: 'AI工作流',
             position: 'left',
             items: [
               { label: '栏目首页', to: '/docs/category/ai-era' },
@@ -192,59 +192,21 @@ const config = {
             ],
           },
           {
-            label: 'AI 美女相册',
+            label: '全球观察',
             position: 'left',
             items: [
-              { label: '栏目首页', to: '/docs/category/ai-gallery' },
-              { label: '创作 Prompt', to: '/docs/category/ai-gallery-prompts', className: 'navbar-dropdown-section' },
-              { label: '相册制作工作流', to: '/docs/ai-gallery/creative-guides/workflow' },
-              { label: '作品图集展示', to: '/docs/ai-gallery/creative-guides/gallery' },
-              { label: '鬼马少女写真提示词', to: '/docs/ai-gallery/creative-guides/鬼马少女写真提示词' },
+              { label: '栏目首页', to: '/docs/category/全球观察' },
+              { label: '美国ITIN的作用', to: '/docs/全球观察/us-itin-guide' },
+              { label: 'AI改写跨境套利', to: '/docs/全球观察/ai-arbitrage' },
+              { label: '链上数据分析', to: '/docs/全球观察/链上数据分析（On-Chain Analysis）' },
             ],
           },
         ],
       },
       footer: {
-        style: 'light',
-        links: [
-          {
-            title: '攻略栏目',
-            items: [
-              { label: '国外银行', to: '/docs/category/foreign-banks' },
-              { label: '国外券商', to: '/docs/category/foreign-brokers' },
-              { label: '加密 Web3', to: '/docs/category/crypto-web3' },
-              { label: '跨境出海', to: '/docs/category/cross-border' },
-              { label: 'AI 时代', to: '/docs/category/ai-era' },
-              { label: 'AI 美女相册', to: '/docs/category/ai-gallery' },
-            ],
-          },
-          {
-            title: '站内',
-            items: [
-              { label: '出海攻略总览', to: '/docs/guide' },
-              { label: '关于我', to: '/about' },
-              { label: '金融免责声明', to: '/disclaimer' },
-              { label: '友情链接申请', to: '/links' },
-            ],
-          },
-          {
-            title: '资源推荐',
-            items: [
-              { label: 'AI 美女相册轮播', to: '/ai-gallery-carousel' },
-              { label: '出海工具栈合集', to: '/docs/category/cross-border' },
-              { label: '加密银行卡对比', to: '/docs/category/crypto-cards' },
-            ],
-          },
-          {
-            title: '联系方式',
-            items: [
-              { label: 'Telegram @ifanr520', href: 'https://t.me/ifanr520' },
-              { label: 'YouTube', href: 'https://www.youtube.com/@your-channel' },
-              { label: 'Facebook', href: 'https://www.facebook.com/your-page' },
-            ],
-          },
-        ],
-        copyright: `<p class="footer-icp-line">京ICP备01088888号-1 · 京公网安备11010502088888号</p><p class="footer-copy-line">© ${new Date().getFullYear()} Ken的海</p>`,
+        style: 'dark',
+        links: [],
+        copyright: ' ',
       },
     }),
 };

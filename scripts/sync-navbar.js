@@ -26,7 +26,7 @@ const TOP_ORDER = [
   'crypto-web3',
   'cross-border',
   'ai-era',
-  'ai-gallery',
+  '全球观察',
 ];
 
 function readJsonSafe(p) {

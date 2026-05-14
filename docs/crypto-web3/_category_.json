@@ -1,9 +1,9 @@
 {
-  "label": "加密 Web3",
+  "label": "Web3金融",
   "position": 4,
   "link": {
     "type": "generated-index",
-    "title": "加密 Web3",
+    "title": "Web3金融",
     "description": "交易所、链上钱包与稳定币支付的操作备忘：侧重安全习惯、链上确认与合规边界。",
     "slug": "/category/crypto-web3"
   }
